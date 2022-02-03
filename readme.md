@@ -15,6 +15,10 @@
 * 送信機
 <img src="Image/送信機.jpg" width="25%">
 
+## 構成図
+<img src="Image\ScoreBoard.drawio.png">  
+
+
 ## 点検
 * 電源装置
 +48V,+12V,+5Vが正しい電圧を出力しているかをテスターで確認してください
