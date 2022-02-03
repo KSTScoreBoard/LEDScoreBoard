@@ -1,0 +1,5 @@
+#pragma once
+
+#include "sensors/mwx_sns_legacy.hpp"
+#include "sensors/legacy/SHTC3.hpp"
+using SNS_SHTC3 = mwx::SnsSHTC3;

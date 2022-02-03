@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 2831BS-RIGHT-ANGLE)(type Legacy)(uri ${KIPRJMOD}/library/LIB_2831BS-RIGHT-ANGLE/2831BS-RIGHT-ANGLE/KiCad/2831BS-RIGHT-ANGLE.mod)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/library/logo.pretty)(options "")(descr ""))
+)

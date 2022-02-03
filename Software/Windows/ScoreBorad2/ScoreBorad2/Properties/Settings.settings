@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ScoreBorad2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BlockName1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">赤</Value>
+    </Setting>
+    <Setting Name="BlockName2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">青</Value>
+    </Setting>
+    <Setting Name="BlockName3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">緑</Value>
+    </Setting>
+    <Setting Name="BlockName4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">黄</Value>
+    </Setting>
+    <Setting Name="COMport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

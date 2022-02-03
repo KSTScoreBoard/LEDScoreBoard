@@ -1,0 +1,328 @@
+// .vscode/tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+	 {
+            "label": "Build App_Tag,EndDevice_Input (BLUE,LITE2525A)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE", "BOARD=LITE2525A",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "BOARD=LITE2525A",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "BOARD=LITE2525A",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Input/Build" }
+        }
+	, {
+            "label": "Build App_Tag,EndDevice_Input (BLUE,SWING)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE", "BOARD=SWING",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "BOARD=SWING",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "BOARD=SWING",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Input/Build" }
+        }
+	, {
+            "label": "Build App_Tag,EndDevice_Input (BLUE,OTA)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE", "BOARD=OTA",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "BOARD=OTA",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "BOARD=OTA",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Input/Build" }
+        }
+	, {
+            "label": "Build App_Tag,EndDevice_Input (BLUE)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Input/Build" }
+        }
+	, {
+            "label": "Build App_Tag,EndDevice_Input (RED)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=RED",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Input/Build" }
+        }
+	, {
+            "label": "Build App_Tag,EndDevice_Input (RED,OTA)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=RED", "BOARD=OTA",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED", "BOARD=OTA",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED", "BOARD=OTA",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Input/Build" }
+        }
+	, {
+            "label": "Build App_Tag,EndDevice_Remote (BLUE)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Remote/Build" }
+        }
+	, {
+            "label": "Build App_Tag,EndDevice_Remote (RED)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=RED",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/EndDevice_Remote/Build" }
+        }
+	, {
+            "label": "Build App_Tag,Parent (BLUE)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/Parent/Build" }
+        }
+	, {
+            "label": "Build App_Tag,Parent (BLUE,MONOSTICK)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE", "TWE_BOARD_MODEL=MONOSTICK",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "TWE_BOARD_MODEL=MONOSTICK",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE", "TWE_BOARD_MODEL=MONOSTICK",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/Parent/Build" }
+        }
+	, {
+            "label": "Build App_Tag,Parent (RED)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=RED",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/Parent/Build" }
+        }
+	, {
+            "label": "Build App_Tag,Parent (RED,MONOSTICK)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=RED", "TWE_BOARD_MODEL=MONOSTICK",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED", "TWE_BOARD_MODEL=MONOSTICK",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED", "TWE_BOARD_MODEL=MONOSTICK",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/Parent/Build" }
+        }
+	, {
+            "label": "Build App_Tag,Router (BLUE)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=BLUE",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=BLUE",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/Router/Build" }
+        }
+	, {
+            "label": "Build App_Tag,Router (RED)",
+            "type": "shell",
+            "windows": {
+                "command": "make",
+                "args": [ "TWELITE=RED",  "clean", "all" ],
+                "options": { "env": { "PATH": "${workspaceRoot}\\..\\..\\Tools\\MinGW\\msys\\1.0\\bin" } }
+            },
+            "linux": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "osx": {
+                "command": "sh",
+                "args": [
+                    "${workspaceRoot}/../../Tools/VSCode/bin/cleanbuild.sh",
+                    "TWELITE=RED",  "" ]
+            },
+            "problemMatcher": { "base": "$gcc", "fileLocation": [ "absolute" ] },
+            "options": { "cwd": "${workspaceRoot}/Router/Build" }
+        }
+    ]
+}

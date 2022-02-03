@@ -1,0 +1,3 @@
+サンプル-I2C
+I2Cバスの制御用のAPI利用サンプルです。
+https://github.com/monowireless/Samp_I2C

@@ -1,0 +1,3 @@
+Sns_MLX90614
+Melexis の赤外温度センサー MLX90614 を TWELITE 上で動作させます。
+https://github.com/monowireless/ActEx_Sns_MLX90614

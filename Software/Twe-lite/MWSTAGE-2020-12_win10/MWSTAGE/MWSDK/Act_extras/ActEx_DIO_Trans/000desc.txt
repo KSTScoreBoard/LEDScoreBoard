@@ -1,0 +1,3 @@
+DIO_Trans/DIO高速無線転送
+子機のDI(ディジタル入力)を高頻度(標準1Khz/4ポート, 12.8KHz/1ポートまで設定可)でサンプルし、親機のDO(ディジタル出力)に再現します。
+https://github.com/monowireless/ActEx_DIO_Trans

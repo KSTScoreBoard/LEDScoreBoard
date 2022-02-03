@@ -1,0 +1,3 @@
+シリアル通信アプリ（App_Uart）
+シリアル通信アプリ（App_Uart）は、UART（シリアル）通信に特化したアプリケーションです。UARTはマイコンで一般的に利用されるシリアル通信方式です。
+https://mono-wireless.com/jp/products/TWE-APPS/App_Uart/

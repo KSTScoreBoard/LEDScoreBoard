@@ -1,0 +1,4 @@
+PALｱﾌﾟﾘ
+EndDevice は子機側で、TWELITE PALに書き込んで使用します。
+※親機・中継機は App_Wings を用います。
+https://mono-wireless.com/jp/products/TWE-APPS/App_pal/

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2831BS_RIGHT_ANGLE'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Shen Zhen Tekivi", "2831BS-RIGHT-ANGLE" (!) = "", "DIPS762W45P254L2253H610Q12N", "Dual-In-Line Sockets", "", "", "", "", "Small 3-digit red 7-segment LED display 7 mm high anode common anode common connection", "http://akizukidenshi.com/download/ds/tekivi/2xx1BS_sq.pdf", "6.1 mm"
+END_PART
+
+END.

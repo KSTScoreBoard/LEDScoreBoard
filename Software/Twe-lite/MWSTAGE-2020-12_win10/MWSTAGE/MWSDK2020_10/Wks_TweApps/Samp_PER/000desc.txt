@@ -1,0 +1,3 @@
+サンプル-パケットエラー率計測
+パケットエラーを計測します。片方（親機側）はｼﾘｱﾙ接続が必要です。
+https://github.com/monowireless/Samp_PER

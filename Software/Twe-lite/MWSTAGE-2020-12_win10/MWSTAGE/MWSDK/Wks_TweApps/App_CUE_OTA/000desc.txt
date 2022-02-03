@@ -1,0 +1,3 @@
+CUE 設定アプリ(OTA)
+MONOSTICK用です。無線経由で CUE の設定を行います。ﾀｰﾐﾅﾙ画面上で CUE に反映させたい設定を行います。設定後 MONOSTICK の近くで CUE の磁石の操作(電池入れも可)を行うと設定が反映されます。
+https://mono-wireless.com/jp/products/twelite-cue/

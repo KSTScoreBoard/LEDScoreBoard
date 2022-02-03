@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug\ScoreBoard.X.debug.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>16384</length>
+      <used>819</used>
+      <free>15565</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1024</length>
+      <used>62</used>
+      <free>962</free>
+    </memory>
+  </executable>
+</project>

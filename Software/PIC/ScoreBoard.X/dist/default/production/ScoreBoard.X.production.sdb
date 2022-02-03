@@ -1,0 +1,181 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1938 ]
+[d frameptr 6 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"70 C:\Users\makot\Desktop\ScoreBoradProject\PIC\ScoreBoard.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"122
+[v _ICR ICR `II(v  1 e 1 0 ]
+"429 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1938.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"491
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"553
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"801
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1228
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1290
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1352
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S23 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1623
+[s S32 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S37 . 1 `S23 1 . 1 0 `S32 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES37  1 e 1 @149 ]
+"1851
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"3077
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3135
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3702
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3793
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @529 ]
+"3813
+[v _SSPADD SSPADD `VEuc  1 e 1 @530 ]
+"3833
+[v _SSPMSK SSPMSK `VEuc  1 e 1 @531 ]
+"3853
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @532 ]
+"3915
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @533 ]
+"4037
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @534 ]
+"7693
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"8158
+[v _RB0 RB0 `VEb  1 e 0 @104 ]
+"8161
+[v _RB1 RB1 `VEb  1 e 0 @105 ]
+"8164
+[v _RB2 RB2 `VEb  1 e 0 @106 ]
+"8167
+[v _RB3 RB3 `VEb  1 e 0 @107 ]
+"8170
+[v _RB4 RB4 `VEb  1 e 0 @108 ]
+"8173
+[v _RB5 RB5 `VEb  1 e 0 @109 ]
+"8197
+[v _RC5 RC5 `VEb  1 e 0 @117 ]
+"8200
+[v _RC6 RC6 `VEb  1 e 0 @118 ]
+"8572
+[v _SSPIE SSPIE `VEb  1 e 0 @1163 ]
+"8575
+[v _SSPIF SSPIF `VEb  1 e 0 @139 ]
+"8656
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"8659
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"44 C:\Users\makot\Desktop\ScoreBoradProject\PIC\ScoreBoard.X\main.c
+[v _recv_data recv_data `[3]uc  1 e 3 0 ]
+"45
+[v _recv_count recv_count `uc  1 e 1 0 ]
+"46
+[v _recv_score recv_score `ui  1 e 2 0 ]
+"47
+[v _buf buf `uc  1 e 1 0 ]
+"50
+[v _segment segment `[10]uc  1 e 10 0 ]
+"64
+[v _roll_number roll_number `uc  1 e 1 0 ]
+"65
+[v _roll roll `[3]uc  1 e 3 0 ]
+"66
+[v _disable disable `uc  1 e 1 0 ]
+"68
+[v _score_dig score_dig `[3]i  1 e 6 0 ]
+"70
+[v _main main `(v  1 e 1 0 ]
+{
+"84
+[v main@address address `uc  1 a 1 6 ]
+"119
+} 0
+"122
+[v _ICR ICR `II(v  1 e 1 0 ]
+{
+"141
+[v ICR@score score `i  1 s 2 score ]
+"162
+[v ICR@index index `uc  1 s 1 index ]
+"192
+[v ICR@count count `i  1 s 2 count ]
+"201
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 11 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 6 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 8 ]
+"30
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0

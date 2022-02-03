@@ -1,0 +1,9 @@
+Manufacturer=Shen Zhen Tekivi
+PartNumber=2831BS-RIGHT-ANGLE
+PartCategory=Display
+PackageCategory=Dual-In-Line Sockets
+PinCount=12
+Version=1.1
+Released=2018-04-08 21:00:46
+Downloaded=2020-03-09 12:05:18
+3D=N

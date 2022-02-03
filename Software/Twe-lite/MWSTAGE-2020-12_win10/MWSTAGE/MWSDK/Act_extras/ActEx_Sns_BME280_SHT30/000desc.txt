@@ -1,0 +1,3 @@
+Sns_BME280_SHT30
+Bosch の環境センサー BME280/BMP280 と Senserion の温湿度センサー SHT3x を動作させるためのコードが含まれます。
+https://github.com/monowireless/ActEx_Sns_BME280_SHT30

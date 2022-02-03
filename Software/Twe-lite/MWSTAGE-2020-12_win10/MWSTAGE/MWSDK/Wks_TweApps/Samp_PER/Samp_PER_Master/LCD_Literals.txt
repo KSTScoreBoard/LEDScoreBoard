@@ -1,0 +1,85 @@
+/*
+ * LCD_Literals.h
+ *   This file is edit with ShiftJIS encodings for HANKAKU KANA.
+ */
+
+#ifndef LCD_LITERALS_H_
+#define LCD_LITERALS_H_
+
+#define MSG_LANG_JAPANESE 0
+#define MSG_LANG_ENGLISH 1
+
+
+const char MSG_TBL_START[2][8] = { "  !¶²¼", "!Start" };
+const char MSG_TBL_STOP[2][8] = { " Ã²¼", "Stop" };
+const char MSG_TBL_BACK[2][8] = { ">ÓÄÞÙ", ">Back" };
+
+const char MSG_TBL_OPTS[4][2][36] = {
+  { " Â·ÞÍ>  Á¬ÈÙ»¹Þ  Á¬ÈÙ±¹Þ   !¶²¼ ",
+    " Next>   ChDn     ChUp   !Start " },
+  { " Â·ÞÍ>  Íß²Û°ÄÞ   ¶Ý¶¸  ¶²½³ ",
+    " Next>   Payld    Tick    Count " },
+  { " Â·ÞÍ>  »²¿³Rt    µ³Ì¸   ¼­ÂØ®¸ ",
+    " Next>   Retry   AppAck   Power " },
+  { " <ÓÄÞÙ                     !¶²¼ ", 
+    " <Back                   !Start " }
+};
+
+const char MSG_TBL_SETTINGS[6][2][8] = {
+  { "Á¬ÈÙ   ", "Channel" },
+  { "Íß²Û°ÄÞ", "Payload" },
+  { "¶Ý¶¸   ", "Tick   " },
+  { "¶²½³   ", "Count  " },
+  { "»²¿³   ", "Retry  " },
+  { "µ³Ì¸   ", "AppAck " }
+};
+
+
+const char MSG_TBL_MESURE[4][2][8] = {
+  { "¼ÝÁ®¸ ", "Progrs" },
+  { "MacAck", "MacAck" },
+  { "´×°ØÂ ", "Error " },
+  { "µ³Ì¸Ak", "AppAck" }
+};
+
+
+const char MSG_TBL_WAIT_A_MINUTE[2][36] = {
+	//2345678901234567890123456789012
+	"\n¼ÊÞ×¸ µÏÁ ¸ÀÞ»²...\n",
+	"\nWait a minute...\n",
+};
+const char MSG_TBL_CHILD_SCANNING[2][36] = {
+	//2345678901234567890123456789012
+	"\nº·¦ ÀÝ»¸¼Ã²Ï½....\n",
+	"\nScanning Child Nodes...\n",
+};
+const char MSG_TBL_CHILD_SELECT[2][36] = {
+	//2345678901234567890123456789012
+	"\nº·¦ ¾ÝÀ¸¼Ã ¸ÀÞ»²:\n",
+	"\nChoose PER Slave listed below:\n",
+};
+
+const char MSG_TBL_CHILD_NOT_FOUND[2][36] = {
+	//2345678901234567890123456789012
+	"\nº·¶Þ ÐÂ¶ØÏ¾Ý¡ »²ÀÝ»¸ ¼Ã¸ÀÞ»²\n",
+	"\nChild not found. Try Rescan\n",
+};
+
+const char MSG_TBL_CHILD_NOT_AVAILABLE[2][36] = {
+	//2345678901234567890123456789012
+	"%d: -- ÐÄ³Û¸ --\n",
+	"%d: -- not available --\n"
+};
+
+const char MSG_TBL_EVALUATION [8][2][10] = {
+  { "ÀÞÒ¶Ó    ", "HOPELESS " },
+  { "¶ÅØÜÙ²   ", "VeryPOOR " },
+  { "ÜÙ²      ", "POOR     " },
+  { "Ï½ÞÏ½Þ   ", "FAIR     " },
+  { "Ö²       ", "GOOD     " },
+  { "¶ÅØÖ²    ", "FINE     " },
+  { "½ÊÞ×¼²   ", "EXCELLENT" },
+  { "¶ÝÍß·    ", "PERFECT! " }
+};
+
+#endif /* LCD_LITERALS_H_ */
