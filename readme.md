@@ -1,17 +1,17 @@
-# LED“¾“_ŒfŽ¦”Â
-## €”õ
-ˆÈ‰º‚Ì•¨‚ª‚»‚ë‚Á‚Ä‚¢‚é‚©‚ðŠm”F‚µ‚Ä‚­‚¾‚³‚¢
-* ƒƒCƒ“Šî”Â x 4
-<img src="Image/ƒƒCƒ“Šî”Â.jpg" width="25%">
-* ’ÊMŠî”Õ x 4
-<img src="Image/’ÊMŠî”Â.jpg" width="25%">
-* LEDƒpƒlƒ‹3–‡ x 4F(Œv12–‡)
-<img src="Image/LEDƒpƒlƒ‹.jpg" width="25%">
-* “dŒ¹‘•’u
-<img src="Image/“dŒ¹‘•’u.jpg" width="25%">
-* “dŒ¹ƒP[ƒuƒ‹ 2–{
-* ’ÊMƒP[ƒuƒ‹ 2–{
-* ‘€ì—pƒ^ƒuƒŒƒbƒh(‰æ‘œ‚Í‹ŒŒ^‚Ìƒ^ƒuƒŒƒbƒh‚Å‚·)
-<img src="Image/ƒ^ƒuƒŒƒbƒh.jpg" width="25%">
-* ‘—M‹@
-<img src="Image/‘—M‹@.jpg" width="25%">
+# LEDå¾—ç‚¹æŽ²ç¤ºæ¿
+## æº–å‚™
+ä»¥ä¸‹ã®ç‰©ãŒãã‚ã£ã¦ã„ã‚‹ã‹ã‚’ç¢ºèªã—ã¦ãã ã•ã„
+* ãƒ¡ã‚¤ãƒ³åŸºæ¿ x 4
+<img src="Image/ãƒ¡ã‚¤ãƒ³åŸºæ¿.jpg" width="25%">
+* é€šä¿¡åŸºç›¤ x 4
+<img src="Image/é€šä¿¡åŸºæ¿.jpg" width="25%">
+* LEDãƒ‘ãƒãƒ«3æžš x 4è‰²(è¨ˆ12æžš)
+<img src="Image/LEDãƒ‘ãƒãƒ«.jpg" width="25%">
+* é›»æºè£…ç½®
+<img src="Image/é›»æºè£…ç½®.jpg" width="25%">
+* é›»æºã‚±ãƒ¼ãƒ–ãƒ« 2æœ¬
+* é€šä¿¡ã‚±ãƒ¼ãƒ–ãƒ« 2æœ¬
+* æ“ä½œç”¨ã‚¿ãƒ–ãƒ¬ãƒƒãƒ‰(ç”»åƒã¯æ—§åž‹ã®ã‚¿ãƒ–ãƒ¬ãƒƒãƒ‰ã§ã™)
+<img src="Image/ã‚¿ãƒ–ãƒ¬ãƒƒãƒ‰.jpg" width="25%">
+* é€ä¿¡æ©Ÿ
+<img src="Image/é€ä¿¡æ©Ÿ.jpg" width="25%">
