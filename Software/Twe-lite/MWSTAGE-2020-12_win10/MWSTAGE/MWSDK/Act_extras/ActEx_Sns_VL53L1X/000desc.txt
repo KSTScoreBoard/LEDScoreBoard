@@ -1,3 +1,0 @@
-Sns_VL53L1X
-ToF 距離測定モジュール VL53L1X (STMicroelectronics社製) を動作させるためのActです。
-https://github.com/monowireless/ActEx_Sns_VL53L1X

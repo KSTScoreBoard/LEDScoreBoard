@@ -1,2 +1,0 @@
-C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/src/mwx/sensors/legacy/probe.cpp: In function 'bool mwx::sns_proble_ltr308als()':
-C:/Users/makot/Desktop/ScoreBoradProject/MWSTAGE-2020-04_win10/MWSTAGE/MWSDK/TWENET/current/src/mwx/sensors/legacy/probe.cpp:20:14: warning: unused variable 'wrt' [-Wunused-variable]

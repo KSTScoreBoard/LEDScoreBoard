@@ -1,3 +1,0 @@
-サンプル-省電力子機の下り通信
-MessagePoolを利用し子機からデータを送信後、ネットワークからのメッセージを受信し、メッセージ受信が終了した時点でスリープします。
-https://github.com/monowireless/Samp_Wayback

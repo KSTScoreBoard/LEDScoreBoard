@@ -1,5 +1,0 @@
-#pragma once
-
-#include "sensors/mwx_sns_legacy.hpp"
-#include "sensors/legacy/BME280.hpp"
-using SNS_BME280 = mwx::SnsBME280;

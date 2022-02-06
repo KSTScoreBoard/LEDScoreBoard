@@ -1,3 +1,0 @@
-サンプル-連続送信
-出来る限り送信間隔を短くして連続的に無線パケットを送信します。
-https://github.com/monowireless/Samp_ContTX

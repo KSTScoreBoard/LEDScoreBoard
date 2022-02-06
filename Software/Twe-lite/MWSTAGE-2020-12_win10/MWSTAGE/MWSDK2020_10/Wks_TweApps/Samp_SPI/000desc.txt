@@ -1,3 +1,0 @@
-サンプル-SPI
-SPIバスのAPI利用サンプルです。
-https://github.com/monowireless/Samp_SPI

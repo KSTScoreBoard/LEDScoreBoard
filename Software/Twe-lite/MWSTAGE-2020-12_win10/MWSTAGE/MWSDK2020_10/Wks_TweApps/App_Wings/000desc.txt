@@ -1,3 +1,0 @@
-親機・中継機アプリ（App_Wings）
-親機・中継機アプリ（App_Wings）はTWELITE APPSとactの全てのデータパケットを処理することができ、共通の親機または中継機として使用できます。
-https://mono-wireless.com/jp/products/TWE-APPS/App_Wings/

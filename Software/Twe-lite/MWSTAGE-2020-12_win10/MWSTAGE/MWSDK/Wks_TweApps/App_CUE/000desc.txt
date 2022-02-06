@@ -1,4 +1,0 @@
-CUEアプリ
-TWELITE CUEに書き込んで使用します。
-※親機・中継機は App_Wings を用います。
-https://mono-wireless.com/jp/products/twelite-cue/

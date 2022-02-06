@@ -1,3 +1,0 @@
-リモコンアプリ（App_IO）
-超簡単！標準アプリ（App_Twelite）のデジタルIO伝送のみを専用化し、最大12ポートまで利用できるように拡張し、機能強化したアプリです。
-https://mono-wireless.com/jp/products/TWE-APPS/App_IO/

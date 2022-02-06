@@ -1,3 +1,0 @@
-サンプル-PingPong
-２つ以上のデバイスに書き込みます。片側で送信すると、他のデバイスから Pong メッセージが戻ってきます。
-https://github.com/monowireless/Samp_PingPong
