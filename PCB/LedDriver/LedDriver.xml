@@ -1,0 +1,2816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Makoto\Desktop\2023年2月注文\LedDriver\LedDriver.kicad_sch</source>
+    <date>2023/02/28 15:15:45</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LedDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>digitDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>digitDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>digitDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f611c082-111a-4b50-92ff-deff296724dc</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c844f3f1-d45b-4c69-a8c2-58bbb3335464</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef8051e1-2c8d-4738-b432-c2e246183079</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33f236a2-530b-49e6-b53e-3c8ca4c48ad7</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e098b69-9c11-4f50-a65b-4dced95bc1ae</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c86494f-8b0f-4cd5-9d71-9e827be728e0</tstamps>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6450fc2-0c7e-49c4-a909-a7cadc910e3a</tstamps>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeb57c59-27bd-4b66-983e-819791e6d7df</tstamps>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e976bb6-b36f-478a-8a8b-ee2127a8a13e</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>LCD</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x07_Female" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39333e05-a988-4498-bc69-c1f1e06036d3</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>TweLite-R</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b3eec71-2e57-464e-b73f-dd4b543c7511</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffcd7263-cf7d-4f2d-abec-1ad6c4d4610f</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_JST:JST_VH_B8P-VH_1x08_P3.96mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ee3a8ef-be23-4e15-b179-eb309c16e287</tstamps>
+    </comp>
+    <comp ref="J105">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_JST:JST_VH_B8P-VH_1x08_P3.96mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bd3d377-ba9b-4435-962a-dfd975264647</tstamps>
+    </comp>
+    <comp ref="J106">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_JST:JST_VH_B8P-VH_1x08_P3.96mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17b9a02b-3e93-43fe-8628-5348a30994a3</tstamps>
+    </comp>
+    <comp ref="J107">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1492022-f339-4fea-ac06-f3f63283c914</tstamps>
+    </comp>
+    <comp ref="J108">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfd28422-00ab-4c68-953a-5680efb00002</tstamps>
+    </comp>
+    <comp ref="J109">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>928a789b-6a55-4935-9451-051dbde5a94e</tstamps>
+    </comp>
+    <comp ref="J110">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92e79764-8cd9-439f-ac99-6c2d6f28ce00</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d0b8588-c58f-4fad-97f3-2543e0c84f7d</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e15b8f6-e358-4012-b097-ef7cca8d6c69</tstamps>
+    </comp>
+    <comp ref="SW102">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7100a425-ee95-4615-8475-58867df2c89d</tstamps>
+    </comp>
+    <comp ref="SW103">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cefa257-be99-4310-a725-940658416dcf</tstamps>
+    </comp>
+    <comp ref="SW104">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6f0a231-2a47-465b-b9e1-117cc28da5e7</tstamps>
+    </comp>
+    <comp ref="SW105">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fe84d9e-e381-4eb9-b45b-907c7ab5b0ed</tstamps>
+    </comp>
+    <comp ref="SW106">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31955cfb-76c1-4d98-8a65-03a0ffdb945d</tstamps>
+    </comp>
+    <comp ref="SW107">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3S-1000</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3f0f7ca-202a-45cb-870e-763a89c94c64</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>MW-R-WX</value>
+      <footprint>RF_Module:MonoWireless_TWE-L-WX</footprint>
+      <datasheet>https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf</datasheet>
+      <libsource lib="RF_ZigBee" part="MW-R-WX" description="NXP JN5164/JN5169 breakout module, SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LedDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63250bb4-ebb4-4801-9432-d8bd0916af0b</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>73da96a1-46d4-47b0-85ff-4a7cde3b76e7</tstamps>
+    </comp>
+    <comp ref="D202">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>772989e8-db74-4bff-ab8b-0c9b9987e45f</tstamps>
+    </comp>
+    <comp ref="D203">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>94593c79-7cdb-418f-ac7e-979d38be663a</tstamps>
+    </comp>
+    <comp ref="D204">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>1bcedcfd-3696-444b-ac81-7d7a671b0156</tstamps>
+    </comp>
+    <comp ref="D205">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>2773466f-3050-4d3f-929a-72f2efa8cb28</tstamps>
+    </comp>
+    <comp ref="D206">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>e119ae2c-8beb-4748-a998-354a46c330b1</tstamps>
+    </comp>
+    <comp ref="D207">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>4cccf068-be85-4576-9ca0-5a04d959253a</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>3abf21fa-0a6c-444a-bb78-cb110dcb2c1e</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>94842b35-1980-4ccd-8e04-794739ed7490</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>94303ad4-9326-4999-8d00-f3eafe9d4163</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>f4d80294-312e-4eeb-9637-02ae1f33eaf1</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>78526524-7768-40c5-8628-ce54b548e36d</tstamps>
+    </comp>
+    <comp ref="R206">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>71f612fd-4af7-49b5-9920-72dc1a71b47e</tstamps>
+    </comp>
+    <comp ref="R207">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>e089d6e9-7954-45d8-b328-3c33dc58f957</tstamps>
+    </comp>
+    <comp ref="R208">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>8f1e47b3-22bf-4903-a48a-d6960427cfca</tstamps>
+    </comp>
+    <comp ref="R209">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>a4939861-e263-4370-bfab-19228ebebe3c</tstamps>
+    </comp>
+    <comp ref="R210">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>d0b27e76-0e65-4b45-9cfa-80f0663bdc21</tstamps>
+    </comp>
+    <comp ref="R211">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>f7653e43-5528-49f0-90a9-1e24bb31c17c</tstamps>
+    </comp>
+    <comp ref="R212">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>feabbba5-0364-4732-be28-6e5008a24ca1</tstamps>
+    </comp>
+    <comp ref="R213">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>9efb4cf9-2932-4792-b23f-dacd7d01faeb</tstamps>
+    </comp>
+    <comp ref="R214">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>c63e8c2f-db96-41b3-98c8-3645713b0b13</tstamps>
+    </comp>
+    <comp ref="R215">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>2e248326-af5b-419f-a4f1-24d78d0a62e1</tstamps>
+    </comp>
+    <comp ref="R216">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>de3e283a-6eb8-4019-9df4-46f7e00be2bb</tstamps>
+    </comp>
+    <comp ref="R217">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>8ab5cb4e-e8fe-4af9-ae98-11a398e17fde</tstamps>
+    </comp>
+    <comp ref="R218">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>9f3bbbda-1687-4237-a9c4-d6b44d820ff3</tstamps>
+    </comp>
+    <comp ref="R219">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>67de2578-065c-4b84-8388-1578060e6c7b</tstamps>
+    </comp>
+    <comp ref="R220">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>d64b4273-e5c3-46e7-afd3-12c7eb4eb014</tstamps>
+    </comp>
+    <comp ref="R221">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>b0f193f9-b6ef-4bfa-9cc7-cfdf98ec8afb</tstamps>
+    </comp>
+    <comp ref="R222">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>372c652d-ccb7-4f63-8810-cd9547a72847</tstamps>
+    </comp>
+    <comp ref="R223">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>4d34b108-a41c-4426-b452-0df0a84f5df7</tstamps>
+    </comp>
+    <comp ref="R224">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>09e947de-c0ef-4396-b9bc-239bdef97e0c</tstamps>
+    </comp>
+    <comp ref="R225">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>26a16fa6-3d19-49bf-bc80-fcae948cc923</tstamps>
+    </comp>
+    <comp ref="R226">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>4b21c33e-0b71-47aa-8088-6048c207176b</tstamps>
+    </comp>
+    <comp ref="R227">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>5271ee90-890a-4033-b987-037762261a47</tstamps>
+    </comp>
+    <comp ref="R228">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>cf145f65-8340-4596-abc0-2be871a90eba</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>8944a92a-91c6-4aab-8ab8-820e85fd1a99</tstamps>
+    </comp>
+    <comp ref="U202">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>ff792c72-ec61-489e-8cce-3fb08fdb1e6a</tstamps>
+    </comp>
+    <comp ref="U203">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>b4a1e8a3-be04-4d2c-9cce-1f1976f503b6</tstamps>
+    </comp>
+    <comp ref="U204">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>63c3641f-75b0-41eb-b6d6-03727982dcc3</tstamps>
+    </comp>
+    <comp ref="U205">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>3945fcab-fd4a-4ee0-a0f1-be91e65230d2</tstamps>
+    </comp>
+    <comp ref="U206">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>ece22f3c-a232-46cb-9b21-4d4a0f411dc8</tstamps>
+    </comp>
+    <comp ref="U207">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>49686be7-ff32-464d-bca2-d5f3316347da</tstamps>
+    </comp>
+    <comp ref="U208">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value="digitDriver_one"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_one/" tstamps="/e8372379-4f81-4714-a4bd-0da8f876e2d2/"/>
+      <tstamps>9dbf9c44-c4f9-4ed5-a1d0-de8fac2179b1</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>73da96a1-46d4-47b0-85ff-4a7cde3b76e7</tstamps>
+    </comp>
+    <comp ref="D302">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>772989e8-db74-4bff-ab8b-0c9b9987e45f</tstamps>
+    </comp>
+    <comp ref="D303">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>94593c79-7cdb-418f-ac7e-979d38be663a</tstamps>
+    </comp>
+    <comp ref="D304">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>1bcedcfd-3696-444b-ac81-7d7a671b0156</tstamps>
+    </comp>
+    <comp ref="D305">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>2773466f-3050-4d3f-929a-72f2efa8cb28</tstamps>
+    </comp>
+    <comp ref="D306">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>e119ae2c-8beb-4748-a998-354a46c330b1</tstamps>
+    </comp>
+    <comp ref="D307">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>4cccf068-be85-4576-9ca0-5a04d959253a</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>3abf21fa-0a6c-444a-bb78-cb110dcb2c1e</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>94842b35-1980-4ccd-8e04-794739ed7490</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>94303ad4-9326-4999-8d00-f3eafe9d4163</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>f4d80294-312e-4eeb-9637-02ae1f33eaf1</tstamps>
+    </comp>
+    <comp ref="R305">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>78526524-7768-40c5-8628-ce54b548e36d</tstamps>
+    </comp>
+    <comp ref="R306">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>71f612fd-4af7-49b5-9920-72dc1a71b47e</tstamps>
+    </comp>
+    <comp ref="R307">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>e089d6e9-7954-45d8-b328-3c33dc58f957</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>8f1e47b3-22bf-4903-a48a-d6960427cfca</tstamps>
+    </comp>
+    <comp ref="R309">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>a4939861-e263-4370-bfab-19228ebebe3c</tstamps>
+    </comp>
+    <comp ref="R310">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>d0b27e76-0e65-4b45-9cfa-80f0663bdc21</tstamps>
+    </comp>
+    <comp ref="R311">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>f7653e43-5528-49f0-90a9-1e24bb31c17c</tstamps>
+    </comp>
+    <comp ref="R312">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>feabbba5-0364-4732-be28-6e5008a24ca1</tstamps>
+    </comp>
+    <comp ref="R313">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>9efb4cf9-2932-4792-b23f-dacd7d01faeb</tstamps>
+    </comp>
+    <comp ref="R314">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>c63e8c2f-db96-41b3-98c8-3645713b0b13</tstamps>
+    </comp>
+    <comp ref="R315">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>2e248326-af5b-419f-a4f1-24d78d0a62e1</tstamps>
+    </comp>
+    <comp ref="R316">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>de3e283a-6eb8-4019-9df4-46f7e00be2bb</tstamps>
+    </comp>
+    <comp ref="R317">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>8ab5cb4e-e8fe-4af9-ae98-11a398e17fde</tstamps>
+    </comp>
+    <comp ref="R318">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>9f3bbbda-1687-4237-a9c4-d6b44d820ff3</tstamps>
+    </comp>
+    <comp ref="R319">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>67de2578-065c-4b84-8388-1578060e6c7b</tstamps>
+    </comp>
+    <comp ref="R320">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>d64b4273-e5c3-46e7-afd3-12c7eb4eb014</tstamps>
+    </comp>
+    <comp ref="R321">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>b0f193f9-b6ef-4bfa-9cc7-cfdf98ec8afb</tstamps>
+    </comp>
+    <comp ref="R322">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>372c652d-ccb7-4f63-8810-cd9547a72847</tstamps>
+    </comp>
+    <comp ref="R323">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>4d34b108-a41c-4426-b452-0df0a84f5df7</tstamps>
+    </comp>
+    <comp ref="R324">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>09e947de-c0ef-4396-b9bc-239bdef97e0c</tstamps>
+    </comp>
+    <comp ref="R325">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>26a16fa6-3d19-49bf-bc80-fcae948cc923</tstamps>
+    </comp>
+    <comp ref="R326">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>4b21c33e-0b71-47aa-8088-6048c207176b</tstamps>
+    </comp>
+    <comp ref="R327">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>5271ee90-890a-4033-b987-037762261a47</tstamps>
+    </comp>
+    <comp ref="R328">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>cf145f65-8340-4596-abc0-2be871a90eba</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>8944a92a-91c6-4aab-8ab8-820e85fd1a99</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>ff792c72-ec61-489e-8cce-3fb08fdb1e6a</tstamps>
+    </comp>
+    <comp ref="U303">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>b4a1e8a3-be04-4d2c-9cce-1f1976f503b6</tstamps>
+    </comp>
+    <comp ref="U304">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>63c3641f-75b0-41eb-b6d6-03727982dcc3</tstamps>
+    </comp>
+    <comp ref="U305">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>3945fcab-fd4a-4ee0-a0f1-be91e65230d2</tstamps>
+    </comp>
+    <comp ref="U306">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>ece22f3c-a232-46cb-9b21-4d4a0f411dc8</tstamps>
+    </comp>
+    <comp ref="U307">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>49686be7-ff32-464d-bca2-d5f3316347da</tstamps>
+    </comp>
+    <comp ref="U308">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value="digitDriver_ten"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_ten/" tstamps="/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/"/>
+      <tstamps>9dbf9c44-c4f9-4ed5-a1d0-de8fac2179b1</tstamps>
+    </comp>
+    <comp ref="D401">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>73da96a1-46d4-47b0-85ff-4a7cde3b76e7</tstamps>
+    </comp>
+    <comp ref="D402">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>772989e8-db74-4bff-ab8b-0c9b9987e45f</tstamps>
+    </comp>
+    <comp ref="D403">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>94593c79-7cdb-418f-ac7e-979d38be663a</tstamps>
+    </comp>
+    <comp ref="D404">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>1bcedcfd-3696-444b-ac81-7d7a671b0156</tstamps>
+    </comp>
+    <comp ref="D405">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>2773466f-3050-4d3f-929a-72f2efa8cb28</tstamps>
+    </comp>
+    <comp ref="D406">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>e119ae2c-8beb-4748-a998-354a46c330b1</tstamps>
+    </comp>
+    <comp ref="D407">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>4cccf068-be85-4576-9ca0-5a04d959253a</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>3abf21fa-0a6c-444a-bb78-cb110dcb2c1e</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>94842b35-1980-4ccd-8e04-794739ed7490</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>94303ad4-9326-4999-8d00-f3eafe9d4163</tstamps>
+    </comp>
+    <comp ref="R404">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>f4d80294-312e-4eeb-9637-02ae1f33eaf1</tstamps>
+    </comp>
+    <comp ref="R405">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>78526524-7768-40c5-8628-ce54b548e36d</tstamps>
+    </comp>
+    <comp ref="R406">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>71f612fd-4af7-49b5-9920-72dc1a71b47e</tstamps>
+    </comp>
+    <comp ref="R407">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>e089d6e9-7954-45d8-b328-3c33dc58f957</tstamps>
+    </comp>
+    <comp ref="R408">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>8f1e47b3-22bf-4903-a48a-d6960427cfca</tstamps>
+    </comp>
+    <comp ref="R409">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>a4939861-e263-4370-bfab-19228ebebe3c</tstamps>
+    </comp>
+    <comp ref="R410">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>d0b27e76-0e65-4b45-9cfa-80f0663bdc21</tstamps>
+    </comp>
+    <comp ref="R411">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>f7653e43-5528-49f0-90a9-1e24bb31c17c</tstamps>
+    </comp>
+    <comp ref="R412">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>feabbba5-0364-4732-be28-6e5008a24ca1</tstamps>
+    </comp>
+    <comp ref="R413">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>9efb4cf9-2932-4792-b23f-dacd7d01faeb</tstamps>
+    </comp>
+    <comp ref="R414">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>c63e8c2f-db96-41b3-98c8-3645713b0b13</tstamps>
+    </comp>
+    <comp ref="R415">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>2e248326-af5b-419f-a4f1-24d78d0a62e1</tstamps>
+    </comp>
+    <comp ref="R416">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>de3e283a-6eb8-4019-9df4-46f7e00be2bb</tstamps>
+    </comp>
+    <comp ref="R417">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>8ab5cb4e-e8fe-4af9-ae98-11a398e17fde</tstamps>
+    </comp>
+    <comp ref="R418">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>9f3bbbda-1687-4237-a9c4-d6b44d820ff3</tstamps>
+    </comp>
+    <comp ref="R419">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>67de2578-065c-4b84-8388-1578060e6c7b</tstamps>
+    </comp>
+    <comp ref="R420">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>d64b4273-e5c3-46e7-afd3-12c7eb4eb014</tstamps>
+    </comp>
+    <comp ref="R421">
+      <value>0.33</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>b0f193f9-b6ef-4bfa-9cc7-cfdf98ec8afb</tstamps>
+    </comp>
+    <comp ref="R422">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>372c652d-ccb7-4f63-8810-cd9547a72847</tstamps>
+    </comp>
+    <comp ref="R423">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>4d34b108-a41c-4426-b452-0df0a84f5df7</tstamps>
+    </comp>
+    <comp ref="R424">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>09e947de-c0ef-4396-b9bc-239bdef97e0c</tstamps>
+    </comp>
+    <comp ref="R425">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>26a16fa6-3d19-49bf-bc80-fcae948cc923</tstamps>
+    </comp>
+    <comp ref="R426">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>4b21c33e-0b71-47aa-8088-6048c207176b</tstamps>
+    </comp>
+    <comp ref="R427">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>5271ee90-890a-4033-b987-037762261a47</tstamps>
+    </comp>
+    <comp ref="R428">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>cf145f65-8340-4596-abc0-2be871a90eba</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>8944a92a-91c6-4aab-8ab8-820e85fd1a99</tstamps>
+    </comp>
+    <comp ref="U402">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>ff792c72-ec61-489e-8cce-3fb08fdb1e6a</tstamps>
+    </comp>
+    <comp ref="U403">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>b4a1e8a3-be04-4d2c-9cce-1f1976f503b6</tstamps>
+    </comp>
+    <comp ref="U404">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>63c3641f-75b0-41eb-b6d6-03727982dcc3</tstamps>
+    </comp>
+    <comp ref="U405">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>3945fcab-fd4a-4ee0-a0f1-be91e65230d2</tstamps>
+    </comp>
+    <comp ref="U406">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>ece22f3c-a232-46cb-9b21-4d4a0f411dc8</tstamps>
+    </comp>
+    <comp ref="U407">
+      <value>NJW4617DL3-TE1</value>
+      <footprint>NJW4617DL3-TE1:DPAK127P968X238-6N</footprint>
+      <fields>
+        <field name="MANUFACTURER">NJR</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1" description=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="2017-05-11"/>
+      <property name="MANUFACTURER" value="NJR"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>49686be7-ff32-464d-bca2-d5f3316347da</tstamps>
+    </comp>
+    <comp ref="U408">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value="digitDriver_hun"/>
+      <property name="Sheetfile" value="digitDriver.kicad_sch"/>
+      <sheetpath names="/digitDriver_hun/" tstamps="/67d089be-80a1-4b77-b39f-7287a2db11d8/"/>
+      <tstamps>9dbf9c44-c4f9-4ed5-a1d0-de8fac2179b1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~{SRCLR}" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Female">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="NJW4617DL3-TE1" part="NJW4617DL3-TE1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NJW4617DL3-TE1</field>
+        <field name="Footprint">DPAK127P968X238-6N</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">2017-05-11</field>
+        <field name="MANUFACTURER">NJR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="EN/PWM" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="RS" type="output"/>
+        <pin num="5" name="LED" type="output"/>
+        <pin num="6" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_ZigBee" part="MW-R-WX">
+      <description>NXP JN5164/JN5169 breakout module, SMD</description>
+      <docs>https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf</docs>
+      <footprints>
+        <fp>MonoWireless?TWE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MW-R-WX</field>
+        <field name="Footprint">RF_Module:MonoWireless_TWE-L-WX</field>
+        <field name="Datasheet">https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO0/PWM2" type="output"/>
+        <pin num="2" name="DO1/PWM3" type="bidirectional"/>
+        <pin num="3" name="DIO18/DO1" type="bidirectional"/>
+        <pin num="4" name="DIO19/DO2" type="bidirectional"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="DIO4/DO3" type="bidirectional"/>
+        <pin num="7" name="DIO5/PWM1" type="bidirectional"/>
+        <pin num="8" name="DIO6/TX" type="bidirectional"/>
+        <pin num="9" name="DIO7/RX" type="bidirectional"/>
+        <pin num="10" name="DIO8/PWM4" type="bidirectional"/>
+        <pin num="11" name="DIO9/DO4" type="bidirectional"/>
+        <pin num="12" name="DIO10/M1" type="bidirectional"/>
+        <pin num="13" name="DIO12/DI1" type="bidirectional"/>
+        <pin num="14" name="DIO14/SCL" type="bidirectional"/>
+        <pin num="15" name="DIO13/DI2" type="bidirectional"/>
+        <pin num="16" name="DIO11/DI3" type="bidirectional"/>
+        <pin num="17" name="DIO15/SDA" type="bidirectional"/>
+        <pin num="18" name="DIO16/DI4" type="bidirectional"/>
+        <pin num="19" name="DIO17/BPS" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="~{RESET}" type="input"/>
+        <pin num="22" name="ADC2/AI3" type="input"/>
+        <pin num="23" name="ADC1/AI1" type="input"/>
+        <pin num="24" name="DIO0/AI2" type="bidirectional"/>
+        <pin num="25" name="DIO1/AI4" type="bidirectional"/>
+        <pin num="26" name="DIO2/M2" type="bidirectional"/>
+        <pin num="27" name="DIO3/M3" type="bidirectional"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="NC" type="no_connect"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="NJW4617DL3-TE1">
+      <uri>C:\Users\Makoto\Desktop\2023年2月注文\LedDriver/NJW4617DL3-TE1/NJW4617DL3-TE1.kicad_sym</uri>
+    </library>
+    <library logical="RF_ZigBee">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/RF_ZigBee.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J108" pin="1" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="U101" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U201" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U202" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U203" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U204" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U205" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U206" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U207" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U208" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U301" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U302" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U303" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U304" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U305" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U306" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U307" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U308" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U401" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U402" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U403" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U404" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U405" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U406" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U407" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U408" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/MinusHun">
+      <node ref="SW107" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="15" pinfunction="DIO13/DI2" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/MinusOne">
+      <node ref="SW103" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="11" pinfunction="DIO9/DO4" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/MinusTen">
+      <node ref="SW105" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="16" pinfunction="DIO11/DI3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/PRG">
+      <node ref="J102" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="DO1/PWM3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/PlusHun">
+      <node ref="SW106" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="13" pinfunction="DIO12/DI1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/PlusOne">
+      <node ref="SW102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="7" pinfunction="DIO5/PWM1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/PlusTen">
+      <node ref="SW104" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="12" pinfunction="DIO10/M1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/RCK">
+      <node ref="U101" pin="4" pinfunction="DIO19/DO2" pintype="bidirectional"/>
+      <node ref="U208" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U308" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U408" pin="12" pinfunction="RCLK" pintype="input"/>
+    </net>
+    <net code="10" name="/RESET">
+      <node ref="J101" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J102" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="21" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="11" name="/RX">
+      <node ref="J102" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="9" pinfunction="DIO7/RX" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/SCK">
+      <node ref="U101" pin="1" pinfunction="DO0/PWM2" pintype="output"/>
+      <node ref="U208" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U308" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U408" pin="11" pinfunction="SRCLK" pintype="input"/>
+    </net>
+    <net code="13" name="/SCL">
+      <node ref="J101" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="DIO14/SCL" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/SDA">
+      <node ref="J101" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U101" pin="17" pinfunction="DIO15/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/SI">
+      <node ref="U101" pin="3" pinfunction="DIO18/DO1" pintype="bidirectional"/>
+      <node ref="U208" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="16" name="/TX">
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="8" pinfunction="DIO6/TX" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/_G">
+      <node ref="U101" pin="10" pinfunction="DIO8/PWM4" pintype="bidirectional"/>
+      <node ref="U208" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U308" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U408" pin="13" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="18" name="/_SCLR">
+      <node ref="U101" pin="6" pinfunction="DIO4/DO3" pintype="bidirectional"/>
+      <node ref="U208" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U308" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U408" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+    </net>
+    <net code="19" name="/add_01">
+      <node ref="J109" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="26" pinfunction="DIO2/M2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/add_02">
+      <node ref="J110" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="27" pinfunction="DIO3/M3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/digitDriver_hun/A">
+      <node ref="J106" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U401" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="22" name="/digitDriver_hun/B">
+      <node ref="J106" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U402" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="23" name="/digitDriver_hun/C">
+      <node ref="J106" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U403" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="24" name="/digitDriver_hun/D">
+      <node ref="J106" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U404" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="25" name="/digitDriver_hun/E">
+      <node ref="J106" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U405" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="26" name="/digitDriver_hun/F">
+      <node ref="J106" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U406" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="27" name="/digitDriver_hun/G">
+      <node ref="J106" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U407" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="28" name="/digitDriver_hun/QA">
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="R428" pin="1" pintype="passive"/>
+      <node ref="U401" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U408" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="29" name="/digitDriver_hun/QB">
+      <node ref="R404" pin="1" pintype="passive"/>
+      <node ref="R427" pin="1" pintype="passive"/>
+      <node ref="U402" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U408" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="30" name="/digitDriver_hun/QC">
+      <node ref="R407" pin="1" pintype="passive"/>
+      <node ref="R426" pin="1" pintype="passive"/>
+      <node ref="U403" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U408" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="31" name="/digitDriver_hun/QD">
+      <node ref="R410" pin="1" pintype="passive"/>
+      <node ref="R425" pin="1" pintype="passive"/>
+      <node ref="U404" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U408" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="32" name="/digitDriver_hun/QE">
+      <node ref="R413" pin="1" pintype="passive"/>
+      <node ref="R424" pin="1" pintype="passive"/>
+      <node ref="U405" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U408" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="33" name="/digitDriver_hun/QF">
+      <node ref="R416" pin="1" pintype="passive"/>
+      <node ref="R423" pin="1" pintype="passive"/>
+      <node ref="U406" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U408" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="34" name="/digitDriver_hun/QG">
+      <node ref="R419" pin="1" pintype="passive"/>
+      <node ref="R422" pin="1" pintype="passive"/>
+      <node ref="U407" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U408" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="35" name="/digitDriver_hun/QH">
+      <node ref="U408" pin="9" pinfunction="QH'" pintype="output"/>
+    </net>
+    <net code="36" name="/digitDriver_hun/SI">
+      <node ref="U308" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U408" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="37" name="/digitDriver_one/A">
+      <node ref="J104" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U201" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="38" name="/digitDriver_one/B">
+      <node ref="J104" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U202" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="39" name="/digitDriver_one/C">
+      <node ref="J104" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U203" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="40" name="/digitDriver_one/D">
+      <node ref="J104" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U204" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="41" name="/digitDriver_one/E">
+      <node ref="J104" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U205" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="42" name="/digitDriver_one/F">
+      <node ref="J104" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U206" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="43" name="/digitDriver_one/G">
+      <node ref="J104" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U207" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="44" name="/digitDriver_one/QA">
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R228" pin="1" pintype="passive"/>
+      <node ref="U201" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U208" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="45" name="/digitDriver_one/QB">
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="R227" pin="1" pintype="passive"/>
+      <node ref="U202" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U208" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="46" name="/digitDriver_one/QC">
+      <node ref="R207" pin="1" pintype="passive"/>
+      <node ref="R226" pin="1" pintype="passive"/>
+      <node ref="U203" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U208" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="47" name="/digitDriver_one/QD">
+      <node ref="R210" pin="1" pintype="passive"/>
+      <node ref="R225" pin="1" pintype="passive"/>
+      <node ref="U204" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U208" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="48" name="/digitDriver_one/QE">
+      <node ref="R213" pin="1" pintype="passive"/>
+      <node ref="R224" pin="1" pintype="passive"/>
+      <node ref="U205" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U208" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="49" name="/digitDriver_one/QF">
+      <node ref="R216" pin="1" pintype="passive"/>
+      <node ref="R223" pin="1" pintype="passive"/>
+      <node ref="U206" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U208" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="50" name="/digitDriver_one/QG">
+      <node ref="R219" pin="1" pintype="passive"/>
+      <node ref="R222" pin="1" pintype="passive"/>
+      <node ref="U207" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U208" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="51" name="/digitDriver_one/QH">
+      <node ref="U208" pin="9" pinfunction="QH'" pintype="output"/>
+      <node ref="U308" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="52" name="/digitDriver_ten/A">
+      <node ref="J105" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U301" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="53" name="/digitDriver_ten/B">
+      <node ref="J105" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U302" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="54" name="/digitDriver_ten/C">
+      <node ref="J105" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U303" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="55" name="/digitDriver_ten/D">
+      <node ref="J105" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U304" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="56" name="/digitDriver_ten/E">
+      <node ref="J105" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U305" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="57" name="/digitDriver_ten/F">
+      <node ref="J105" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U306" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="58" name="/digitDriver_ten/G">
+      <node ref="J105" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U307" pin="5" pinfunction="LED" pintype="output"/>
+    </net>
+    <net code="59" name="/digitDriver_ten/QA">
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="R328" pin="1" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U308" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="60" name="/digitDriver_ten/QB">
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="R327" pin="1" pintype="passive"/>
+      <node ref="U302" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U308" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="61" name="/digitDriver_ten/QC">
+      <node ref="R307" pin="1" pintype="passive"/>
+      <node ref="R326" pin="1" pintype="passive"/>
+      <node ref="U303" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U308" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="62" name="/digitDriver_ten/QD">
+      <node ref="R310" pin="1" pintype="passive"/>
+      <node ref="R325" pin="1" pintype="passive"/>
+      <node ref="U304" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U308" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="63" name="/digitDriver_ten/QE">
+      <node ref="R313" pin="1" pintype="passive"/>
+      <node ref="R324" pin="1" pintype="passive"/>
+      <node ref="U305" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U308" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="64" name="/digitDriver_ten/QF">
+      <node ref="R316" pin="1" pintype="passive"/>
+      <node ref="R323" pin="1" pintype="passive"/>
+      <node ref="U306" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U308" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="65" name="/digitDriver_ten/QG">
+      <node ref="R319" pin="1" pintype="passive"/>
+      <node ref="R322" pin="1" pintype="passive"/>
+      <node ref="U307" pin="2" pinfunction="EN/PWM" pintype="input"/>
+      <node ref="U308" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="66" name="GND">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D202" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D203" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D204" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D205" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D206" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D207" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D302" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D303" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D304" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D305" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D306" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D307" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D401" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D402" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D403" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D404" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D405" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D406" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D407" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J101" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J107" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J108" pin="2" pintype="passive"/>
+      <node ref="J109" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J110" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="R206" pin="2" pintype="passive"/>
+      <node ref="R209" pin="2" pintype="passive"/>
+      <node ref="R212" pin="2" pintype="passive"/>
+      <node ref="R215" pin="2" pintype="passive"/>
+      <node ref="R218" pin="2" pintype="passive"/>
+      <node ref="R221" pin="2" pintype="passive"/>
+      <node ref="R222" pin="2" pintype="passive"/>
+      <node ref="R223" pin="2" pintype="passive"/>
+      <node ref="R224" pin="2" pintype="passive"/>
+      <node ref="R225" pin="2" pintype="passive"/>
+      <node ref="R226" pin="2" pintype="passive"/>
+      <node ref="R227" pin="2" pintype="passive"/>
+      <node ref="R228" pin="2" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R306" pin="2" pintype="passive"/>
+      <node ref="R309" pin="2" pintype="passive"/>
+      <node ref="R312" pin="2" pintype="passive"/>
+      <node ref="R315" pin="2" pintype="passive"/>
+      <node ref="R318" pin="2" pintype="passive"/>
+      <node ref="R321" pin="2" pintype="passive"/>
+      <node ref="R322" pin="2" pintype="passive"/>
+      <node ref="R323" pin="2" pintype="passive"/>
+      <node ref="R324" pin="2" pintype="passive"/>
+      <node ref="R325" pin="2" pintype="passive"/>
+      <node ref="R326" pin="2" pintype="passive"/>
+      <node ref="R327" pin="2" pintype="passive"/>
+      <node ref="R328" pin="2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="R406" pin="2" pintype="passive"/>
+      <node ref="R409" pin="2" pintype="passive"/>
+      <node ref="R412" pin="2" pintype="passive"/>
+      <node ref="R415" pin="2" pintype="passive"/>
+      <node ref="R418" pin="2" pintype="passive"/>
+      <node ref="R421" pin="2" pintype="passive"/>
+      <node ref="R422" pin="2" pintype="passive"/>
+      <node ref="R423" pin="2" pintype="passive"/>
+      <node ref="R424" pin="2" pintype="passive"/>
+      <node ref="R425" pin="2" pintype="passive"/>
+      <node ref="R426" pin="2" pintype="passive"/>
+      <node ref="R427" pin="2" pintype="passive"/>
+      <node ref="R428" pin="2" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW102" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW103" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW104" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW105" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW106" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW107" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="28" pinfunction="GND" pintype="passive"/>
+      <node ref="U101" pin="30" pinfunction="GND" pintype="passive"/>
+      <node ref="U101" pin="31" pinfunction="GND" pintype="passive"/>
+      <node ref="U101" pin="32" pinfunction="GND" pintype="passive"/>
+      <node ref="U201" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U202" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U203" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U204" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U205" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U206" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U207" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U208" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U301" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U303" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U304" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U305" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U306" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U307" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U308" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U401" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U403" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U404" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U405" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U406" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U407" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U408" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="67" name="Net-(D201-Pad2)">
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R201" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D202-Pad2)">
+      <node ref="D202" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D203-Pad2)">
+      <node ref="D203" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R207" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D204-Pad2)">
+      <node ref="D204" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R210" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D205-Pad2)">
+      <node ref="D205" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R213" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D206-Pad2)">
+      <node ref="D206" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R216" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D207-Pad2)">
+      <node ref="D207" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R219" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D301-Pad2)">
+      <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D302-Pad2)">
+      <node ref="D302" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D303-Pad2)">
+      <node ref="D303" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R307" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D304-Pad2)">
+      <node ref="D304" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R310" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D305-Pad2)">
+      <node ref="D305" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R313" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D306-Pad2)">
+      <node ref="D306" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R316" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D307-Pad2)">
+      <node ref="D307" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R319" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D401-Pad2)">
+      <node ref="D401" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D402-Pad2)">
+      <node ref="D402" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R404" pin="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D403-Pad2)">
+      <node ref="D403" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R407" pin="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(D404-Pad2)">
+      <node ref="D404" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R410" pin="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D405-Pad2)">
+      <node ref="D405" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R413" pin="2" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(D406-Pad2)">
+      <node ref="D406" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R416" pin="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(D407-Pad2)">
+      <node ref="D407" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R419" pin="2" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(J102-Pad6)">
+      <node ref="J102" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(R202-Pad1)">
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(R202-Pad2)">
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="U201" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="91" name="Net-(R205-Pad1)">
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="R206" pin="1" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(R205-Pad2)">
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="U202" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="93" name="Net-(R208-Pad1)">
+      <node ref="R208" pin="1" pintype="passive"/>
+      <node ref="R209" pin="1" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(R208-Pad2)">
+      <node ref="R208" pin="2" pintype="passive"/>
+      <node ref="U203" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="95" name="Net-(R211-Pad1)">
+      <node ref="R211" pin="1" pintype="passive"/>
+      <node ref="R212" pin="1" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(R211-Pad2)">
+      <node ref="R211" pin="2" pintype="passive"/>
+      <node ref="U204" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="97" name="Net-(R214-Pad1)">
+      <node ref="R214" pin="1" pintype="passive"/>
+      <node ref="R215" pin="1" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(R214-Pad2)">
+      <node ref="R214" pin="2" pintype="passive"/>
+      <node ref="U205" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="99" name="Net-(R217-Pad1)">
+      <node ref="R217" pin="1" pintype="passive"/>
+      <node ref="R218" pin="1" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(R217-Pad2)">
+      <node ref="R217" pin="2" pintype="passive"/>
+      <node ref="U206" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="101" name="Net-(R220-Pad1)">
+      <node ref="R220" pin="1" pintype="passive"/>
+      <node ref="R221" pin="1" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(R220-Pad2)">
+      <node ref="R220" pin="2" pintype="passive"/>
+      <node ref="U207" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="103" name="Net-(R302-Pad1)">
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(R302-Pad2)">
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="U301" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="105" name="Net-(R305-Pad1)">
+      <node ref="R305" pin="1" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+    </net>
+    <net code="106" name="Net-(R305-Pad2)">
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="U302" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="107" name="Net-(R308-Pad1)">
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="R309" pin="1" pintype="passive"/>
+    </net>
+    <net code="108" name="Net-(R308-Pad2)">
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="U303" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="109" name="Net-(R311-Pad1)">
+      <node ref="R311" pin="1" pintype="passive"/>
+      <node ref="R312" pin="1" pintype="passive"/>
+    </net>
+    <net code="110" name="Net-(R311-Pad2)">
+      <node ref="R311" pin="2" pintype="passive"/>
+      <node ref="U304" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="111" name="Net-(R314-Pad1)">
+      <node ref="R314" pin="1" pintype="passive"/>
+      <node ref="R315" pin="1" pintype="passive"/>
+    </net>
+    <net code="112" name="Net-(R314-Pad2)">
+      <node ref="R314" pin="2" pintype="passive"/>
+      <node ref="U305" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="113" name="Net-(R317-Pad1)">
+      <node ref="R317" pin="1" pintype="passive"/>
+      <node ref="R318" pin="1" pintype="passive"/>
+    </net>
+    <net code="114" name="Net-(R317-Pad2)">
+      <node ref="R317" pin="2" pintype="passive"/>
+      <node ref="U306" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="115" name="Net-(R320-Pad1)">
+      <node ref="R320" pin="1" pintype="passive"/>
+      <node ref="R321" pin="1" pintype="passive"/>
+    </net>
+    <net code="116" name="Net-(R320-Pad2)">
+      <node ref="R320" pin="2" pintype="passive"/>
+      <node ref="U307" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="117" name="Net-(R402-Pad1)">
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+    </net>
+    <net code="118" name="Net-(R402-Pad2)">
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="U401" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="119" name="Net-(R405-Pad1)">
+      <node ref="R405" pin="1" pintype="passive"/>
+      <node ref="R406" pin="1" pintype="passive"/>
+    </net>
+    <net code="120" name="Net-(R405-Pad2)">
+      <node ref="R405" pin="2" pintype="passive"/>
+      <node ref="U402" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="121" name="Net-(R408-Pad1)">
+      <node ref="R408" pin="1" pintype="passive"/>
+      <node ref="R409" pin="1" pintype="passive"/>
+    </net>
+    <net code="122" name="Net-(R408-Pad2)">
+      <node ref="R408" pin="2" pintype="passive"/>
+      <node ref="U403" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="123" name="Net-(R411-Pad1)">
+      <node ref="R411" pin="1" pintype="passive"/>
+      <node ref="R412" pin="1" pintype="passive"/>
+    </net>
+    <net code="124" name="Net-(R411-Pad2)">
+      <node ref="R411" pin="2" pintype="passive"/>
+      <node ref="U404" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="125" name="Net-(R414-Pad1)">
+      <node ref="R414" pin="1" pintype="passive"/>
+      <node ref="R415" pin="1" pintype="passive"/>
+    </net>
+    <net code="126" name="Net-(R414-Pad2)">
+      <node ref="R414" pin="2" pintype="passive"/>
+      <node ref="U405" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="127" name="Net-(R417-Pad1)">
+      <node ref="R417" pin="1" pintype="passive"/>
+      <node ref="R418" pin="1" pintype="passive"/>
+    </net>
+    <net code="128" name="Net-(R417-Pad2)">
+      <node ref="R417" pin="2" pintype="passive"/>
+      <node ref="U406" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="129" name="Net-(R420-Pad1)">
+      <node ref="R420" pin="1" pintype="passive"/>
+      <node ref="R421" pin="1" pintype="passive"/>
+    </net>
+    <net code="130" name="Net-(R420-Pad2)">
+      <node ref="R420" pin="2" pintype="passive"/>
+      <node ref="U407" pin="4" pinfunction="RS" pintype="output"/>
+    </net>
+    <net code="131" name="VDD">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="J104" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J105" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J106" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J107" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(J101-Pad1)">
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(J101-Pad7)">
+      <node ref="J101" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(J108-Pad3)">
+      <node ref="J108" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U101-Pad18)">
+      <node ref="U101" pin="18" pinfunction="DIO16/DI4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U101-Pad19)">
+      <node ref="U101" pin="19" pinfunction="DIO17/BPS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U101-Pad22)">
+      <node ref="U101" pin="22" pinfunction="ADC2/AI3" pintype="input+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U101-Pad23)">
+      <node ref="U101" pin="23" pinfunction="ADC1/AI1" pintype="input+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U101-Pad24)">
+      <node ref="U101" pin="24" pinfunction="DIO0/AI2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U101-Pad25)">
+      <node ref="U101" pin="25" pinfunction="DIO1/AI4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U101-Pad29)">
+      <node ref="U101" pin="29" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U201-Pad6)">
+      <node ref="U201" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U202-Pad6)">
+      <node ref="U202" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U203-Pad6)">
+      <node ref="U203" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U204-Pad6)">
+      <node ref="U204" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U205-Pad6)">
+      <node ref="U205" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U206-Pad6)">
+      <node ref="U206" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U207-Pad6)">
+      <node ref="U207" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U208-Pad15)">
+      <node ref="U208" pin="15" pinfunction="QA" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U301-Pad6)">
+      <node ref="U301" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U302-Pad6)">
+      <node ref="U302" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U303-Pad6)">
+      <node ref="U303" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U304-Pad6)">
+      <node ref="U304" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U305-Pad6)">
+      <node ref="U305" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U306-Pad6)">
+      <node ref="U306" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U307-Pad6)">
+      <node ref="U307" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U308-Pad15)">
+      <node ref="U308" pin="15" pinfunction="QA" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U401-Pad6)">
+      <node ref="U401" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U402-Pad6)">
+      <node ref="U402" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U403-Pad6)">
+      <node ref="U403" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U404-Pad6)">
+      <node ref="U404" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U405-Pad6)">
+      <node ref="U405" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U406-Pad6)">
+      <node ref="U406" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(U407-Pad6)">
+      <node ref="U407" pin="6" pinfunction="EP" pintype="power_in+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U408-Pad15)">
+      <node ref="U408" pin="15" pinfunction="QA" pintype="tri_state+no_connect"/>
+    </net>
+  </nets>
+</export>

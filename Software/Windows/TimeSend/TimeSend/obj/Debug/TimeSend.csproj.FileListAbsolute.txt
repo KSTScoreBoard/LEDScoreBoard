@@ -1,7 +1,0 @@
-C:\Users\makot\Desktop\ScoreBoradProject\TimeSend\TimeSend\bin\Debug\TimeSend.exe.config
-C:\Users\makot\Desktop\ScoreBoradProject\TimeSend\TimeSend\bin\Debug\TimeSend.exe
-C:\Users\makot\Desktop\ScoreBoradProject\TimeSend\TimeSend\bin\Debug\TimeSend.pdb
-C:\Users\makot\Desktop\ScoreBoradProject\TimeSend\TimeSend\obj\Debug\TimeSend.csprojAssemblyReference.cache
-C:\Users\makot\Desktop\ScoreBoradProject\TimeSend\TimeSend\obj\Debug\TimeSend.csproj.CoreCompileInputs.cache
-C:\Users\makot\Desktop\ScoreBoradProject\TimeSend\TimeSend\obj\Debug\TimeSend.exe
-C:\Users\makot\Desktop\ScoreBoradProject\TimeSend\TimeSend\obj\Debug\TimeSend.pdb

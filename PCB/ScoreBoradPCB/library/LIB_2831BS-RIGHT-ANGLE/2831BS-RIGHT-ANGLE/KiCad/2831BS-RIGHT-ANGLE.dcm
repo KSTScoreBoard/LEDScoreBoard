@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 2831BS-RIGHT-ANGLE
-D Small 3-digit red 7-segment LED display 7 mm high anode common anode common connection
-F http://akizukidenshi.com/download/ds/tekivi/2xx1BS_sq.pdf
-$ENDCMP
-#
-#End Doc Library

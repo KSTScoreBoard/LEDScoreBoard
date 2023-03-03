@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "ManualControlPanel")(type "KiCad")(uri "C:/Users/2233018/OneDrive - 神奈川工科大学/ドキュメント/電光掲示盤/マニュアル制御/ManualControlPanel.pretty")(options "")(descr ""))
+  (lib (name "PartsLibrary")(type "KiCad")(uri "C:/Users/2233018/OneDrive - 神奈川工科大学/ドキュメント/電光掲示盤/マニュアル制御/PartsLibrary.pretty")(options "")(descr ""))
+)

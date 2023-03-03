@@ -1,0 +1,3 @@
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/Sender/Sender.cpp: In function 'void loop()':
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/Sender/Sender.cpp:48:77: warning: narrowing conversion of '(((((int)score[0]) * 100) + (((int)score[1]) * 10)) + ((int)score[2]))' from 'int' to 'uint16_t {aka short unsigned int}' inside { } [-Wnarrowing]
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/Sender/Sender.cpp:54:52: warning: narrowing conversion of '((millis() / 1000ul) % 1000ul)' from 'long unsigned int' to 'uint16_t {aka short unsigned int}' inside { } [-Wnarrowing]

@@ -1,0 +1,1554 @@
+Archive member included because of file (symbol)
+
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_event.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (PRSEV_u8RegisterEx)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_main.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (u32TickCount_ms)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_utils.o)
+                              ToCoNet_main.o (symbol from plugin) (ToCoNet_u32GetVersion)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_Nwk_Common.o)
+                              ToCoNet_main.o (symbol from plugin) (ToCoNet_vRxProc_Mod)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_Channel_Mgr.o)
+                              ToCoNet_main.o (symbol from plugin) (ToCoNet_ChMgr_bCh_Reconfig)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(Version.o)
+                              ToCoNet_utils.o (symbol from plugin) (au8ToCoNetVersionInfo)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(AppQueueApi_ToCoNet.o)
+                              ToCoNet_main.o (symbol from plugin) (_u32_INT_ticktimer)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(AppStart.o)
+                              (AppColdStart)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(getMacAddr.o)
+                              ToCoNet_main.o (symbol from plugin) (ToCoNet_u32GetSerialOnBoot)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(mac.o)
+                              ToCoNet_main.o (symbol from plugin) (Mac_vInit)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(AES_CCM.o)
+                              AppStart.o (symbol from plugin) (bAES_CCM_KeyReg)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(no_ack_handler.o)
+                              AppStart.o (symbol from plugin) (vInstallNoAckHandler)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a(Version.o)
+                              ToCoNet_utils.o (symbol from plugin) (au8ToCoNetExtVersionInfo)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(serial.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (SERIAL_bTxChar)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(uart.o)
+                              serial.o (symbol from plugin) (UART_vInit)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(ByteQueue.o)
+                              ToCoNet_main.o (symbol from plugin) (QUEUE__vInit)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(ccitt8.o)
+                              AppStart.o (symbol from plugin) (u8CCITT8)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(utils.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (vTimerConfig)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(ccm.o)
+                              AES_CCM.o (symbol from plugin) (ccm_init_and_key)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(Version.o)
+                              ToCoNet_utils.o (symbol from plugin) (au8ToCoNetUtilsVersionInfo)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(aescrypt.o)
+                              ccm.o (symbol from plugin) (aes_encrypt)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(aeskey.o)
+                              ccm.o (symbol from plugin) (aes_encrypt_key)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a(aestab.o)
+                              aeskey.o (symbol from plugin) (t_im)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweinteractive.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (TWEINTRCT_bIsVerbose)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweprintf.o)
+                              tweinteractive.o (symbol from plugin) (TWE_fprintf)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(twesercmd_plus3.o)
+                              tweinteractive.o (symbol from plugin) (TWESERCMD_Plus3_u8Parse)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweserial.o)
+                              tweinteractive.o (symbol from plugin) (_TWE_fputs)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(printf.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (fctprintf)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweinputstring.o)
+                              tweinteractive.o (symbol from plugin) (TWEINPSTR_vInit)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_debug.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (MWX_Panic)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_appcore.o)
+                              ToCoNet_main.o (symbol from plugin) (cbToCoNet_vMain)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_memory.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (operator new(unsigned long))
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_periph_dio.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (mwx::L1::periph_timer::_au8_timer_ids)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_periph_buttons.o)
+                              mwx_appcore.o (symbol from plugin) (mwx::L1::periph_buttons::begin(unsigned long, unsigned char, unsigned short))
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_periph_analogue.o)
+                              mwx_appcore.o (symbol from plugin) (mwx::L1::periph_analogue::ADC_handler(unsigned long, unsigned long))
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_stgs_standard.o)
+                              objs_BLUE/_mwx_version.o (symbol from plugin) (INTRCT_USER_APP_ID)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_nwk_simple.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (mwx::L1::NwkSimple::on_create(unsigned long&))
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a(mwx_duplicate_checker.o)
+                              mwx_nwk_simple.o (symbol from plugin) (mwx::L1::duplciate_checker::begin())
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a(AppApi.o)
+                              (pvAppApiDefGetMacHandle)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a(AppApiSleep.o)
+                              (vAppApiDefSaveMacSettings)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_main.o)
+                              AppApi.o (symbol from plugin) (MAC_pvCtor)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_mcps.o)
+                              AppApi.o (symbol from plugin) (MAC_vHandleMcpsReqRsp)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_mlme.o)
+                              AppApi.o (symbol from plugin) (MAC_vHandleMlmeReqRsp)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_pib.o)
+                              AppStart.o (symbol from plugin) (MAC_psPibGetHandle)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_pib_mlme.o)
+                              mac_main.o (symbol from plugin) (mac_vPibSetDefaults)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_pmic.o)
+                              mac_main.o (symbol from plugin) (vPMICreset)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_ind.o)
+                              AppApi.o (symbol from plugin) (MAC_vRegisterMlmeDcfmIndCallbacks)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_scan.o)
+                              mac_main.o (symbol from plugin) (mac_eScanInit)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_lp.o)
+                              mac_pmic.o (symbol from plugin) (g_sLP)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(MCPS.o)
+                              mac_mcps.o (symbol from plugin) (vTAM_MCPSdataRequest)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(phy_pib.o)
+                              AppApi.o (symbol from plugin) (phy_ePibGet)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM.o)
+                              MCPS.o (symbol from plugin) (bTAMinPAN)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMCO.o)
+                              TAM.o (symbol from plugin) (vTAMCOsetCoordinator)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMDE.o)
+                              TAM.o (symbol from plugin) (vTAMDEdetermineNullState)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_MEM.o)
+                              TAM.o (symbol from plugin) (vMEMreset)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_MLME.o)
+                              mac_scan.o (symbol from plugin) (vMLMEbeaconNotify)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_TAH.o)
+                              TAMCO.o (symbol from plugin) (vTAHsetCutOff)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_TAI.o)
+                              TAM.o (symbol from plugin) (vTAIsetCapTime)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_TAT.o)
+                              TAMDE.o (symbol from plugin) (vTATstartReceiveAt)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMcommon.o)
+                              mac_scan.o (symbol from plugin) (bTACassessBeaconForPayload)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMevent.o)
+                              mac_lp.o (symbol from plugin) (vTAMinsertEvent)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMqueue.o)
+                              TAMcommon.o (symbol from plugin) (vTAQaddToFifo)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMrxEnable.o)
+                              TAMevent.o (symbol from plugin) (vTAMRXEint2Fired)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMsecurity.o)
+                              TAMcommon.o (symbol from plugin) (vTSCgetIncomingInfo)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMsideways.o)
+                              mac_pmic.o (symbol from plugin) (eTAStransmitRequest)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAMtime.o)
+                              TAM.o (symbol from plugin) (vTTIBLETimerExpired)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(TAM_AES.o)
+                              TAMsecurity.o (symbol from plugin) (u8TAM_AES_WriteAuxilliarySecurityHeaderIntoBuffer)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(Endian.o)
+                              TAM_AES.o (symbol from plugin) (vFromU16ToLe)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_acl.o)
+                              TAMsecurity.o (symbol from plugin) (MAC_u8AclFindInfo)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a(mac_misc.o)
+                              mac_mlme.o (symbol from plugin) (vMAC_MISCpollRequest)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libTimerServer_JN516x.a(tsv_main.o)
+                              AppApiSleep.o (symbol from plugin) (s_sTimerList)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a(xcv_main.o)
+                              AppApi.o (symbol from plugin) (XCV_vCtor)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a(xcv_access.o)
+                              mac_main.o (symbol from plugin) (XCV_vDevWriteIER)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a(xcv_isr.o)
+                              AppApi.o (symbol from plugin) (vXCV_IntHandlerPhy)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AEScoprocessorCCM.o)
+                              AES_CCM.o (symbol from plugin) (bACI_CCMstar)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AES_CCM_Star.o)
+                              TAM_AES.o (symbol from plugin) (vACI_OptimisedCcmStar)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AEScoprocessorAPI.o)
+                              AES_CCM_Star.o (symbol from plugin) (vACI_CmdWaitBusy)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Analogue.o)
+                              utils.o (symbol from plugin) (bAHI_APRegulatorEnabled)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_BrownOut.o)
+                              mwx_appcore.o (symbol from plugin) (vAHI_BrownOutConfigure)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Dio.o)
+                              mwx_periph_dio.o (symbol from plugin) (vAHI_DioSetDirection)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_PulseCounter.o)
+                              mwx_appcore.o (symbol from plugin) (bAHI_Read16BitCounter)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Reset.o)
+                              ToCoNet_main.o (symbol from plugin) (vAHI_SwReset)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Spi.o)
+                              AppQueueApi_ToCoNet.o (symbol from plugin) (vAHI_SpiRegisterCallback)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_System.o)
+                              AppApiSleep.o (symbol from plugin) (u8AHI_PowerStatus)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Timer.o)
+                              utils.o (symbol from plugin) (vAHI_TimerEnable)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_TimerInt.o)
+                              AppQueueApi_ToCoNet.o (symbol from plugin) (vAHI_Timer0RegisterCallback)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Uart.o)
+                              uart.o (symbol from plugin) (vAHI_UartSetBaudDivisor)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_WakeTimer.o)
+                              ToCoNet_utils.o (symbol from plugin) (vAHI_WakeTimerEnable)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Flash.o)
+                              AHI_System.o (symbol from plugin) (vAHI_FlashAndEEPROMControllerIntHandler)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Infrared.o)
+                              AHI_TimerInt.o (symbol from plugin) (vAHI_IntHandlerInfrared)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_DO.o)
+                              mwx_periph_dio.o (symbol from plugin) (bAHI_DoEnableOutputs)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(InternalFlashApi.o)
+                              AHI_Flash.o (symbol from plugin) (bFlashErase)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_FlashIndexSector.o)
+                              AppStart.o (symbol from plugin) (bAHI_ReadMACID)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Si.o)
+                              mwx_appcore.o (symbol from plugin) (vAHI_SiMasterConfigure)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_TickTimer.o)
+                              AppQueueApi_ToCoNet.o (symbol from plugin) (vAHI_TickTimerInit)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+                              AppApi.o (symbol from plugin) (vAHI_InterruptSetPriority)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Init.o)
+                              AppStart.o (symbol from plugin) (u32AHI_Init)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_SpiSlave.o)
+                              AHI_Init.o (symbol from plugin) (vAHI_IntHandlerSpiSlave)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroInt_ba.o)
+                              ToCoNet_main.o (symbol from plugin) (vMicroIntEnableOnly)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                              AHI_Reset.o (symbol from plugin) (vMicroSyscall)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(Heap.o)
+                              (u32HeapStart)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                              (_exception_external_interrupt)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_Tx.o)
+                              mwx_appcore.o (symbol from plugin) (ToCoNet_vReg_mod_Tx_Standard)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a(ToCoNet_mod_TxRxQueue.o)
+                              mwx_appcore.o (symbol from plugin) (ToCoNet_vReg_mod_TxRxQueueSmall)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a(tweserial_jen.o)
+                              mwx_appcore.o (symbol from plugin) (TWETERM_vInitJen)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a(AppHousekeeping.o)
+                              mac_scan.o (symbol from plugin) (sAppHousekeeping)
+C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a(AEScoprocessorAPIinterrupts.o)
+                              AHI_Init.o (symbol from plugin) (vACI_IntHandlerAes)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (isdigit)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                              objs_BLUE/Sender.o (symbol from plugin) (memset)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+                              c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o) (__ctype_ptr__)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans1.ltrans.o (memcmp)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o (memcpy)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o (__udivsi3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o (__divsi3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans9.ltrans.o (__umodsi3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__modsi3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__fixunsdfsi)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__udivdi3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__umoddi3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__adddf3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__divdf3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__nedf2)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__gedf2)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__ledf2)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__muldf3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__subdf3)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__fixdfsi)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__floatsidf)
+c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+                              C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o (__floatunsidf)
+
+Allocating common symbols
+Common symbol       size              file
+
+_TWENET_TX_POWER_MAX
+                    0x1               AppStart.o (symbol from plugin)
+apvHwIndBufferData  0x2c              AppQueueApi_ToCoNet.o (symbol from plugin)
+prMAC_TofMlmeReqHandler
+                    0x4               mac_mlme.o (symbol from plugin)
+apvMlmeIndBufferData
+                    0x14              AppQueueApi_ToCoNet.o (symbol from plugin)
+_TWENET_TX_POWER_VALUE
+                    0x1               AppStart.o (symbol from plugin)
+g_tSpiConfiguration
+                    0x4               AHI_Flash.o (symbol from plugin)
+u8TAM_TxStatusOverride
+                    0x1               TAMevent.o (symbol from plugin)
+prMAC_TofRxHandler  0x4               TAMcommon.o (symbol from plugin)
+_MAC_u8TxFailReason
+                    0x1               mac.o (symbol from plugin)
+apvMcpsIndBufferData
+                    0x14              AppQueueApi_ToCoNet.o (symbol from plugin)
+bAHI_ExtendedTemperatureOperation
+                    0x1               AHI_System.o (symbol from plugin)
+bMAC_DiscardUnsuccessfulAssocResponses
+                    0x1               mac_pmic.o (symbol from plugin)
+u8Msq               0x1               TAM_TAT.o (symbol from plugin)
+g_bLegacyHwBugEmulation
+                    0x1               AES_CCM_Star.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 objs_BLUE/_mwx_version.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o
+ .rodata        0x0000000000000000       0x14 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+ .text.exit     0x0000000000000000        0x3 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+ .text.startup  0x0000000000000000      0x101 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+ .ctors         0x0000000000000000        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans5.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans18.ltrans.o
+ .bss           0x0000000000000000        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans18.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans19.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans20.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans20.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans21.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans21.ltrans.o
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x38 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .eh_frame      0x0000000000000000       0x38 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .text          0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE15_cbTweNet_vMainEPv
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE19_cbTweNet_vNwkEventEPvRNS0_13packet_ev_nwkE
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L114processev_crtpINS0_9NwkSimpleEE14vProcessEvCoreEP8_tsEvent7teEventm
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE9_on_eventEPvmRm
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vRxEventEPvRNS0_9packet_rxE
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vHwEventEPvmm
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE17_cbTweNet_u8HwIntEPvmm
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L111_printobj_1ItE9_do_printEPvPFvcS3_ES3_
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L110serial_jen7vOutputEcPv
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .gnu.linkonce.t._ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vTxEventEPvRNS0_12packet_ev_txE
+                0x0000000000000000        0x0 objs_BLUE/Sender.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_event.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_utils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_Nwk_Common.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_Channel_Mgr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Version.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppQueueApi_ToCoNet.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppStart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 getMacAddr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AES_CCM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 no_ack_handler.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Version.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 serial.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 uart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ByteQueue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ccitt8.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 utils.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ccm.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Version.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 aescrypt.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 aeskey.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 aestab.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweinteractive.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweprintf.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 twesercmd_plus3.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweserial.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 printf.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweinputstring.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_debug.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_appcore.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_memory.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_periph_dio.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_periph_buttons.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_periph_analogue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_stgs_standard.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_nwk_simple.o (symbol from plugin)
+ .gnu.linkonce.t._ZZN3mwx2L110twenet_mac8transmitERNS0_9packet_txEE5u8seq
+                0x0000000000000000        0x0 mwx_nwk_simple.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mwx_duplicate_checker.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppApi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppApiSleep.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_mcps.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_mlme.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pib.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pib_mlme.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_pmic.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_ind.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_scan.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_lp.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 MCPS.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 phy_pib.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMCO.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMDE.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_MEM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_MLME.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAH.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAI.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_TAT.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMcommon.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMevent.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMqueue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMrxEnable.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMsecurity.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMsideways.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAMtime.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 TAM_AES.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 Endian.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_acl.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 mac_misc.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tsv_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_main.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_access.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 xcv_isr.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorCCM.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AES_CCM_Star.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorAPI.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Analogue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_BrownOut.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Dio.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_PulseCounter.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Reset.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Spi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_System.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Timer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_TimerInt.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Uart.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_WakeTimer.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Flash.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Infrared.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_DO.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 InternalFlashApi.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_FlashIndexSector.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_Si.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_TickTimer.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+ .bss           0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+ .text          0x0000000000000000        0x0 AHI_Init.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AHI_SpiSlave.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 MicroInt_ba.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .data          0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .bss           0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+ .text          0x0000000000000000        0x0 Heap.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .data          0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .bss           0x0000000000000000        0x0 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_Tx.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 ToCoNet_mod_TxRxQueue.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 tweserial_jen.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AppHousekeeping.o (symbol from plugin)
+ .text          0x0000000000000000        0x0 AEScoprocessorAPIinterrupts.o (symbol from plugin)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .data          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x0000000000080000 0x0000000000028000
+ram              0x000000000400004c 0x0000000000007fb4
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD objs_BLUE/_mwx_version.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans1.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans2.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans5.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans6.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans9.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans14.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans16.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans17.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans18.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans19.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans20.ltrans.o
+LOAD C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans21.ltrans.o
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD objs_BLUE/Sender.o
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libEASTL_BLUE.a
+START GROUP
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAppApi_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMAC_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libTimerServer_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libTOF_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libXcv_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libAes_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libPDM_EEPROM_JN516x_NO_RTOS.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENET_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENEText_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETutils_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libTWENETstgs_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libmwx_BLUE.a
+LOAD C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/lib/libEASTL_BLUE.a
+END GROUP
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libstdc++.a
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libm.a
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a
+LOAD c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
+                0x0000000000000800                _stack_size = 0x800
+                0x0000000000080038                _exception_vsr_table = 0x80038
+                0x0000000004000000                pSPIflashFncTable = 0x4000000
+                0x0000000000000800                _stack_size = 0x800
+                0x0000000000000044                restore_state = 0x44
+                0x000000000000004a                bZSPIWaitWIPClear = 0x4a
+                0x0000000000000050                u16ZSPIflashRDID = 0x50
+                0x0000000000000056                u8SelectFlashChipType = 0x56
+                0x000000000000005c                memcpy = 0x5c
+                0x0000000000000066                vBootFlashProg = 0x66
+                [0x0000000000000d16]                _minimum_heap_size = DEFINED (_minimum_heap_size)?_minimum_heap_size:0xd16
+                0x0000000000000000                _SwConfig = (DEFINED (g_bSWConf_Debug) | (DEFINED (g_bSWConf_AltDebugPort) << 0x1))
+
+.version        0x000000000007fffc        0x4
+                0x000000000007fffc        0x4 LONG 0x4030008
+
+.bir            0x0000000000080000       0x10
+                0x0000000000080000                _flash_start = ABSOLUTE (.)
+                0x0000000000080000                _flash_beg = ABSOLUTE (.)
+                0x0000000000080000        0x4 LONG 0x12345678
+                0x0000000000080004        0x4 LONG 0x11223344
+                0x0000000000080008        0x4 LONG 0x55667788
+                0x000000000008000c        0x1 BYTE 0x8
+                0x000000000008000d        0x1 BYTE 0x1
+                0x000000000008000e        0x2 SHORT 0x0
+
+.flashheader    0x0000000000080010       0x28
+                0x0000000000080010        0x4 LONG 0x0
+                0x0000000000080014        0x4 LONG 0x0
+                0x0000000000080018        0x4 LONG 0x0
+                0x000000000008001c        0x2 SHORT 0x0
+                0x000000000008001e        0x2 SHORT 0x0 ABSOLUTE (_SwConfig)
+                0x0000000000080020                _enc_start = ABSOLUTE (.)
+                0x0000000000080020        0x4 LONG 0xf9e8 ABSOLUTE (_image_len)
+                0x0000000000080024        0x4 LONG 0x8f9cc ABSOLUTE (_flash_data_start)
+                0x0000000000080028        0x2 SHORT 0x13 ((ABSOLUTE (_ram_data_start) / 0x4) & 0xffff)
+                0x000000000008002a        0x2 SHORT 0x7 ((ABSOLUTE (_ram_data_len) / 0x4) & 0xffff)
+                0x000000000008002c        0x2 SHORT 0x1a ((ABSOLUTE (_bss_start) / 0x4) & 0xffff)
+                0x000000000008002e        0x2 SHORT 0x576 ((ABSOLUTE (_bss_len) / 0x4) & 0xffff)
+                0x0000000000080030        0x4 LONG 0x84838 ABSOLUTE (AppWarmStart)
+                0x0000000000080034        0x4 LONG 0x85e4f ABSOLUTE (AppColdStart)
+                0x0000000000000000                _enc_offset = (_enc_start & 0xf)
+                0x0000000000000044                PROVIDE (vException_BusError, restore_state)
+                0x0000000000000044                PROVIDE (vException_UnalignedAccess, restore_state)
+                0x0000000000000044                PROVIDE (vException_IllegalInstruction, restore_state)
+                0x0000000000000044                PROVIDE (vException_SysCall, restore_state)
+                0x0000000000000044                PROVIDE (vException_Trap, restore_state)
+                0x0000000000000044                PROVIDE (vException_StackOverflow, restore_state)
+                0x0000000000080038                . = ABSOLUTE (_exception_vsr_table)
+
+.vsr_table      0x0000000000080038       0x18
+                0x0000000000080038        0x4 LONG 0x44 ABSOLUTE (vException_BusError)
+                0x000000000008003c        0x4 LONG 0x44 ABSOLUTE (vException_UnalignedAccess)
+                0x0000000000080040        0x4 LONG 0x44 ABSOLUTE (vException_IllegalInstruction)
+                0x0000000000080044        0x4 LONG 0x44 ABSOLUTE (vException_SysCall)
+                0x0000000000080048        0x4 LONG 0x44 ABSOLUTE (vException_Trap)
+                0x000000000008004c        0x4 LONG 0x44 ABSOLUTE (vException_StackOverflow)
+
+.vsr_handlers   0x0000000000080050       0xaa
+ *(.vsr_handlers)
+ .vsr_handlers  0x0000000000080050       0xaa C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                0x0000000000080050                _exception_external_interrupt
+                0x00000000000800f8                _default_vsr_dummy
+
+.rodata         0x0000000000080100      0x8a3
+ *(.rodata*)
+ .rodata        0x0000000000080100       0x9a C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans1.ltrans.o
+ *fill*         0x000000000008019a        0x2 00
+ .rodata        0x000000000008019c       0x1c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans2.ltrans.o
+                0x000000000008019c                au32TimerBaseAddress
+ .rodata.str1.1
+                0x00000000000801b8       0x88 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+ .rodata        0x0000000000080240        0xa C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o
+ .rodata.str1.1
+                0x000000000008024a       0x1b C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans5.ltrans.o
+ .rodata        0x0000000000080265        0x5 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans5.ltrans.o
+                0x0000000000080265                gbHighPowerMode
+                0x0000000000080266                gu8ModuleID
+ .rodata        0x000000000008026a        0x6 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans6.ltrans.o
+                0x000000000008026a                aeXcvPhyEvtToScanEvt.5394.14751
+ .rodata.str1.1
+                0x0000000000080270       0x22 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+ *fill*         0x0000000000080292        0x2 00
+ .rodata        0x0000000000080294       0x38 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+                0x0000000000080294                asStateFuncTbl.26235
+ .rodata.str1.1
+                0x00000000000802cc       0x11 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+ *fill*         0x00000000000802dd        0x3 00
+ .rodata        0x00000000000802e0       0x7c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+                0x0000000000080314                u32MacLow_TOCOS
+                0x0000000000080318                u32MacHigh_TOCOS
+ .rodata.str1.1
+                0x0000000000000000       0x11 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans9.ltrans.o
+ .rodata.str1.1
+                0x000000000008035c       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o
+ *fill*         0x000000000008036e        0x2 00
+ .rodata        0x0000000000080370       0x50 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o
+ .rodata        0x00000000000803c0       0x2c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+                0x00000000000803c0                CSWTCH.35.25087.25087
+ .rodata        0x00000000000803ec       0x1c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+                0x00000000000803ec                psTamXcvContext
+ .rodata        0x0000000000080408        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+ .rodata        0x000000000008040c        0xc C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans14.ltrans.o
+                0x000000000008040c                au32UartAddrOffset
+ .rodata.str1.1
+                0x0000000000000000        0xe C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+ .rodata        0x0000000000080418       0x14 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+ .rodata.str1.1
+                0x000000000008042c       0xec C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans16.ltrans.o
+                                         0xee (size before relaxing)
+ .rodata        0x0000000000080518      0x131 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans18.ltrans.o
+ *fill*         0x0000000000080649        0x3 00
+ .rodata        0x000000000008064c       0xc0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans20.ltrans.o
+                0x000000000008064c                apvActionCalls
+                0x00000000000806d4                s_aprScanHandleEvt.14748
+                0x0000000000080704                psTamMacContext
+                0x0000000000080708                psTAMcontext
+ .rodata.str1.1
+                0x000000000008070c       0x16 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans21.ltrans.o
+ .rodata        0x0000000000080722      0x281 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+                0x0000000000080722                _ctype_
+
+.text           0x00000000000809a4     0xf027
+ *(.text*)
+ .text          0x00000000000809a4      0xbb0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o
+                0x00000000000809a4                bPMICdisassocReqSent.12825
+                0x0000000000080a1b                eWCoRRxDone.14396
+                0x0000000000080ac5                eWBcnRxDone.14408
+                0x0000000000080c95                bTACprocessFrameRXcomplete
+                0x00000000000810b2                vTAMCOframeTXbeacon
+                0x000000000008117a                vTAMDEframeRXsyncReq
+                0x00000000000813cb                vTAMDEint1FiredTrackingCAPgts
+                0x000000000008147e                bPMICassocReqSent.12817
+                0x0000000000081500                bPMICassocReqPollSent.12832
+ .text          0x0000000000081554      0xcfb C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans1.ltrans.o
+                0x0000000000081554                vTTIBLETimerExpired
+                0x000000000008155f                vACI_CmdWaitBusy
+                0x000000000008156c                vEcbEncodeStripe.24312
+                0x00000000000815c3                vTAIdisableInterrupt
+                0x00000000000815dc                vUpdateRegisters.24002
+                0x0000000000081623                psRemove.part.0.23952
+                0x0000000000081652                vMAC_MISCpollConfirm
+                0x0000000000081684                MAC_u8AclFindInfo
+                0x00000000000817ae                vTASretrieveSecurity
+                0x00000000000817d0                MAC_bLookUpKeyDescriptor.21504
+                0x000000000008184a                u8TSCframeIncrease
+                0x0000000000081883                vCopyToDataFromMacAddr.21414
+                0x00000000000818b6                bTSCgetOutgoingInfo
+                0x00000000000819bf                psTAQsearchFifo
+                0x0000000000081a08                bTAQremoveFromFifo
+                0x0000000000081a45                vTAMinsertEvent
+                0x0000000000081aab                vTTITimer2Expired
+                0x0000000000081aaf                vTTITimer1Expired
+                0x0000000000081ab3                vTAM_TxRetryTimeout
+                0x0000000000081ab7                vTACsetTxFrameDefaults
+                0x0000000000081add                u8TACgetHeaderSize
+                0x0000000000081b1a                bUpdateTime.19732
+                0x0000000000081b55                u32TACpayloadToU32M
+                0x0000000000081b76                vTACu32ToPayloadM
+                0x0000000000081b8e                vTACbuildBeacon
+                0x0000000000081d96                bTACframeInProgress
+                0x0000000000081dc0                bTACassessBeaconForPayload
+                0x0000000000081e11                bIsBbcSafeForTx
+                0x0000000000081e46                vTATwriteAclMaterialToHardware
+                0x0000000000081e6b                vTATsetBLE
+                0x0000000000081ea2                vTATgetFramePayload
+                0x0000000000081ebf                eTATreadTXstatus
+                0x0000000000081f05                vTAHsetPhyStateDirect.part.0.18873
+                0x0000000000081f21                vDoGoOff.20694
+                0x0000000000081f3b                vMLMErxEnableConfirm
+                0x0000000000081f6f                vMLMEcommStatus
+                0x0000000000081fd4                vMLMEcommStatusFromFrame
+                0x0000000000082018                vTSCpostTransmitUpdate
+                0x0000000000082047                vMLMEsyncLoss
+                0x000000000008207c                vMEMreturn
+                0x00000000000820ed                vTACinformOriginator
+                0x000000000008210f                vTTITransactionTimerExpired
+                0x0000000000082137                pvMEMget
+                0x0000000000082163                vTAMDEdetermineNullState
+                0x000000000008217d                vTAMCOupdatePendingList
+ .text          0x000000000008224f      0x726 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans2.ltrans.o
+                0x000000000008224f                vHnd_E_STATE_RUNNING.26211
+                0x000000000008249a                SERIAL_vTxReady
+                0x00000000000824fb                _ZN3mwx2L110serial_jen6_beginEv.part.25.6534
+                0x0000000000082780                _MWX_periph_init()
+                0x000000000008287a                _ZN3mwx2L112periph_timer5beginEtbb.local.173.constprop.278
+                0x0000000000082951                _ZN3mwx2L112periph_timer10_on_wakeupEv.local.131
+ .text.unlikely
+                0x0000000000082975      0x17d C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans2.ltrans.o
+                0x00000000000829e5                bStartXtal32k.24763
+ .text          0x0000000000082af2      0x5df C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+                0x0000000000082af2                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vRxEventEPvRNS0_9packet_rxE.local.189
+                0x0000000000083040                TWETERM_iPutS.26569
+                0x0000000000083065                TWETERM_iPutC.26573
+                0x0000000000083076                vAppApiDefMlmeRequest
+                0x00000000000830a1                pvAppApiDefGetMacHandle
+                0x00000000000830aa                _ZN3mwx2L110serial_jen5writeEi.local.146
+                0x00000000000830b9                _ZN3mwx2L16streamINS0_10serial_jenEElsERNS0_18MWX_Stream_EndLineE.isra.27.2069
+ *fill*         0x00000000000830d1        0x3 00
+ .text.unlikely
+                0x00000000000830d4      0x310 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+                0x00000000000830f1                vProcessIncomingHwEvent.2712
+ .text          0x00000000000833e4      0xa63 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o
+                0x00000000000835be                bAES_CCM_EncodeKey
+                0x000000000008366b                bTAM_AES_CCMstarPatch
+                0x00000000000837af                bTAM_AES_CCMstarPatch2006
+                0x00000000000838b6                vWriteFrame.19232
+                0x0000000000083a8e                bTATsendFrame
+                0x0000000000083ae1                bSendDataRequest.17534
+                0x0000000000083bf3                cbAppWarmStart.part.28.6920
+ *fill*         0x0000000000083e47        0x1 00
+ .text          0x0000000000083e48      0x91c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans5.ltrans.o
+                0x0000000000083e48                UART_vHandleUartInterrupt.4885
+                0x0000000000083ecf                vAppQApiPostHwIntT.3442
+                0x0000000000083fa3                vRxChar.4783
+                0x0000000000083ff4                vXCV_IntHandlerPhy
+                0x00000000000840a6                vScanHandleTimer.14005
+                0x00000000000840ac                bAES_CCM_DecodeKey
+                0x0000000000084168                vTimerConfig
+                0x00000000000842f7                _ZN3mwx2L112periph_timer6_startEv.part.8.6497
+                0x000000000008431e                MWX_Panic
+                0x0000000000084382                MWX_DebugMsg
+                0x00000000000843c3                _ZN3mwx2L114processev_crtpINS0_9NwkSimpleEE14vProcessEvCoreEP8_tsEvent7teEventm.local.191
+                0x0000000000084476                SERIAL_i16RxChar
+                0x00000000000844d9                TWETERM_iGetC.26577
+                0x00000000000844fb                _ZN3mwx2L110serial_jen13_set_baudrateEt.isra.2.6481
+                0x00000000000845ac                u8TAM_AES_WriteAuxilliarySecurityHeaderIntoBuffer
+                0x000000000008461e                phy_ePibSet.part.1.16215
+                0x0000000000084666                u32AHI_ReadIndexSectorBits.constprop.214
+                0x00000000000846c7                vTAIsetCapTime
+                0x00000000000846e8                vTAIsetRxEnableTime
+                0x0000000000084709                vDoGoActive.20696
+                0x000000000008472b                vTAMRXEint2Fired
+ .text          0x0000000000084764      0xa8c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans6.ltrans.o
+                0x0000000000084764                vPostDcfm.14392
+                0x0000000000084838                AppWarmStart
+                0x0000000000084913                vSetNextChannel.14440
+                0x000000000008496c                MAC_vHandleMlmeReqRsp
+                0x000000000008511d                vTAMDEint1FiredTracking
+                0x000000000008518c                vTAMDEint1FiredSyncReq
+ .text          0x00000000000851f0      0xc5f C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+                0x00000000000851f0                TSV_eStart
+                0x00000000000852d4                eTAStransmitRequest
+                0x000000000008566f                TSV_eOpen
+                0x0000000000085677                vAppApiDefRestoreMacSettings
+                0x0000000000085748                vAppApiDefSaveMacSettings
+                0x00000000000857a5                mac_vLPBSleep
+                0x0000000000085878                pvAppApiDefGetMacAddrLocation
+                0x0000000000085881                eAppApiDefPlmeGet
+                0x00000000000858d3                eAppApiDefPlmeSet
+                0x000000000008592c                vAppApiDefMcpsRequest
+                0x0000000000085957                vHnd_E_STATE_PREPARE_TX.26190
+ .text          0x0000000000085e4f      0x53c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+                0x0000000000085e4f                AppColdStart
+ .text.unlikely
+                0x000000000008638b      0x440 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+                0x000000000008638b                ToCoNet_vStart
+ .text          0x00000000000867cb      0xa25 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans9.ltrans.o
+                0x00000000000867cb                ToCoNet_vMain
+ .text          0x00000000000871f0     0x10ec C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o
+                0x0000000000087c8e                _vsnprintf.constprop.313
+                0x00000000000882a1                QUEUE__u8RemoveItem.part.1.4960
+ .text          0x00000000000882dc      0x8e0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+                0x00000000000882dc                vProcessEvCoreTx.26172
+                0x0000000000088361                vMicroIntEnableOnly.constprop.308
+                0x000000000008838d                QUEUE__vAddItem.constprop.300
+                0x00000000000883bf                _ToCoNet_bRfChChannel
+                0x0000000000088454                ToCoNet_ChMgr_bCh_Reconfig
+                0x00000000000884bc                ToCoNet_ChMgr_vCh_TxFin
+                0x00000000000884e8                vHnd_E_STATE_WAIT_TX.26203
+                0x0000000000088558                vHnd_E_STATE_IDLE.26195
+                0x00000000000885bc                vAHI_ProtocolPower.constprop.307
+                0x00000000000885ca                XCV_vCtor.constprop.305
+                0x000000000008872f                vAHI_TimerEnable.part.1.24954.constprop.281
+                0x000000000008879a                vTimerStart
+                0x0000000000088894                _ZN3mwx2L16twenet5beginEv.local.112.constprop.266
+                0x00000000000888d9                _ZN3mwx2L115periph_analogue10_adc_startEv.local.43.constprop.257
+                0x00000000000889c2                mwx::L1::periph_analogue::ADC_handler(unsigned long, unsigned long)
+                0x0000000000088a09                u8HwEventHandler.2543
+                0x0000000000088ab1                bAHI_SetClockRate
+ .text.unlikely
+                0x0000000000088bbc      0x24a C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+                0x0000000000088bbc                _ZN3mwx2L110twenet_mac8transmitERNS0_9packet_txE.local.32.constprop.299
+                0x0000000000088dc1                vAHI_MemoryHold.24853
+ *fill*         0x0000000000088e06        0x2 00
+ .text          0x0000000000088e08      0xa10 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+                0x0000000000088e08                vPMICassocReqTO_1.12829
+                0x0000000000088e90                vTAM_MCPSdataRequest
+                0x0000000000088ed3                bTACcheckPANconflict
+                0x0000000000088f8c                vTAMDEstartSync
+                0x000000000008900b                eTAMselect
+                0x000000000008914c                MAC_pvCtor
+                0x0000000000089567                u32AppApiDefInit
+                0x000000000008961c                vDeterminePowerState.17654
+                0x00000000000896a0                vTAMDEint1FiredTrackingBeacon
+                0x0000000000089740                vTAMDEint2FiredTrackingDR
+                0x0000000000089765                vTAMDEframeTXtrackingDR
+                0x00000000000897be                vTAMDEint2FiredPollActive
+                0x00000000000897f2                vTAMDEreqTXnullTrackingCAP
+                0x000000000008980b                vTAM_TxRetryTimer
+ .text          0x0000000000089818      0xa42 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+                0x0000000000089818                mac_vLPBStartTimer
+                0x0000000000089b43                vTimerCallback.24739
+                0x0000000000089bb9                vPollClkSource.24747.constprop.239
+                0x0000000000089bce                pvHeap_Alloc
+                0x0000000000089bd0                operator new(unsigned long)
+                0x0000000000089bf3                u32AHI_Init
+                0x0000000000089cb5                vMicroIntRestoreState
+                0x0000000000089cc1                vAHI_TickTimerIntEnable
+                0x0000000000089d1c                vAHI_TickTimerConfigure
+                0x0000000000089d37                u8AHI_WakeTimerFiredStatus
+                0x0000000000089d4b                vAHI_WakeTimerStop.part.3.25419
+                0x0000000000089d6b                vAHI_UartSetClocksPerBit.part.18.25215
+                0x0000000000089d92                vAHI_UartSetRTSCTS.part.15.25200
+                0x0000000000089db9                vAHI_UartReset.part.4.25173
+                0x0000000000089df1                vAHI_UartSetControl.part.2.25157
+                0x0000000000089e42                vAHI_UartSetBaudDivisor.part.1.25153
+                0x0000000000089e81                vAHI_TimerStop.part.7.24983
+                0x0000000000089e9f                vAHI_TimerDisable.part.2.24962
+                0x0000000000089ec2                vAHI_WatchdogStop
+                0x0000000000089ed9                vAHI_CpuDoze
+                0x0000000000089eec                _ZN3mwx2L120periph_pulse_counter10_on_wakeupEv.part.18.6515
+                0x0000000000089f62                vAHI_DioSetDirection
+                0x0000000000089f76                vACI_OptimisedCcmStar
+                0x000000000008a18e                bAES_CCMstar
+ .text.unlikely
+                0x000000000008a25a       0x11 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+                0x000000000008a25a                vStartXtal32kExternalRc.24753
+ .text          0x000000000008a26b      0x985 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans14.ltrans.o
+                0x000000000008a2b6                SERIAL_bTxChar
+                0x000000000008a367                TWETERM_vFlush.26546
+                0x000000000008a3e5                vTACintRXheader
+                0x000000000008abe0                eGenRxHdrDone.14399
+ .text          0x000000000008abf0      0x981 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+                0x000000000008abf0                mac_vLPBStopTimer
+                0x000000000008abfb                _ZN3mwx2L115periph_analogue5setupEbhPFvvE.local.124.constprop.226
+                0x000000000008ac95                vMLMEbeaconNotify
+                0x000000000008adf3                vMCPSframeReceived
+                0x000000000008aeb6                _ZN3mwx2L114periph_twowireC1Eh.local.76
+                0x000000000008aef3                vTAMRXEsetPhy
+                0x000000000008afb6                vTAHsetPhyState
+                0x000000000008afe6                vTAMCOint2Fired
+                0x000000000008b006                vSetPHYfromMacValue.17530
+                0x000000000008b038                vTAMDEint1FiredWaitDR
+                0x000000000008b045                vTACsetPHYfromMacValue
+                0x000000000008b066                vTAMRXEsetReceiveForPibChange
+                0x000000000008b0a6                bAHI_ReadMACID
+                0x000000000008b0ec                ToCoNet_vInit
+                0x000000000008b42f                vExpireHead.23957
+                0x000000000008b45f                vXCV_IntHandlerBbc
+                0x000000000008b502                fctprintf
+                0x000000000008b524                _ZN3mwx2L111_printobj_1ItE9_do_printEPvPFvcS3_ES3_.local.186
+                0x000000000008b538                TWE_fprintf.constprop.274
+ .text.unlikely
+                0x000000000008b571        0xf C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+                0x000000000008b571                u32AppQApiInitInt_PATCH
+ .text          0x000000000008b580      0x3ce C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans16.ltrans.o
+                0x000000000008b580                _ToCoNet_vMacInit
+                0x000000000008b5e6                _ToCoNet_vRfConfig
+                0x000000000008b727                mwx::L1::NwkSimple::on_create(unsigned long&)
+                0x000000000008b8e3                setup()
+ .text.unlikely
+                0x000000000008b94e      0x267 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans16.ltrans.o
+                0x000000000008b94e                vTransmit(unsigned short*)
+ .text          0x000000000008bbb5      0x894 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans17.ltrans.o
+                0x000000000008bcf8                vHnd_E_STATE_FINISH_TX_FAIL.26180
+                0x000000000008bdae                vHnd_E_STATE_FINISH_TX_SUCCESS.26185
+                0x000000000008be40                vTAMCOreqTXinCAP
+                0x000000000008be67                cbAppColdStart.part.32.7141
+                0x000000000008c051                vTrySendFromDirectCAP.16987
+                0x000000000008c06e                vTrySendFromDirectNoBeacon.16991
+                0x000000000008c09b                vTAMCOint1Fired
+                0x000000000008c1b7                vTAMCOstartBeacon
+                0x000000000008c1f2                vStartStoreValues.17055
+                0x000000000008c2a9                bStartCallback.17084
+                0x000000000008c2d8                vTAMCOint1FiredCAP
+                0x000000000008c34b                vTAMCOreqTXnoBeacon
+                0x000000000008c35d                vTrySendUnslotted.17532
+                0x000000000008c378                bProcessBeaconRX.17537
+ .text          0x000000000008c449      0x675 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans18.ltrans.o
+                0x000000000008c449                mac_vLPBAdjustBeaconOffset
+                0x000000000008c4a6                mac_u32LPBGetBeaconTimeout
+                0x000000000008c4af                eWEnDTmrExpiry.14389
+                0x000000000008c4ba                eWEnDEdDone.14386
+                0x000000000008c515                eGenlDontCare.14383
+                0x000000000008c51a                eGenlIllegal.14008
+                0x000000000008c521                u32GetTimer0
+                0x000000000008c528                vSetTimer0
+                0x000000000008c537                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vHwEventEPvmm.local.188
+                0x000000000008c53a                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE17_cbTweNet_u8HwIntEPvmm.local.187
+                0x000000000008c53f                _out_fct.5726
+                0x000000000008c551                _out_null.5732
+                0x000000000008c554                vOutputStream.5645
+                0x000000000008c560                _ZN3mwx2L110serial_jen7vOutputEcPv.local.185
+                0x000000000008c587                vHandlerPatch.4758
+                0x000000000008c5be                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE18_cbTweNet_vTxEventEPvRNS0_12packet_ev_txE.local.184
+                0x000000000008c5d8                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE19_cbTweNet_vNwkEventEPvRNS0_13packet_ev_nwkE.local.192
+                0x000000000008c5e1                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE15_cbTweNet_vMainEPv.local.193
+                0x000000000008c5e4                vTAMCOsetCoordinator
+                0x000000000008c60a                vPhySetChannel
+                0x000000000008c623                eScanHandleEvt.part.0.14419
+                0x000000000008c64c                mac_eDcfmIndPost
+                0x000000000008c66d                mac_psDcfmIndGetBuf
+                0x000000000008c68e                vPMICpostFailedAssocDcfm
+                0x000000000008c6c6                vPMICassocReqTO_2.12836
+                0x000000000008c6dd                MAC_vPibSetPanId
+                0x000000000008c6f8                vHandleTofRequest.10942
+                0x000000000008c6fb                vAppApiDefSetPrbsSeed
+                0x000000000008c71f                mwx::L1::duplciate_checker::_node_ele_init(mwx::L1::duplciate_checker::_node_ele*)
+                0x000000000008c73d                _ZN3mwx2L113serial_parserINS0_10alloc_heapIhEEEC1Ev.local.52
+                0x000000000008c75f                _ZN3mwx2L16twenetC1Ev.local.58
+                0x000000000008c7f6                _ZN3mwx2L110serial_jenC1Eh.local.107
+                0x000000000008c826                _ZN3mwx2L115periph_analogueC1Ev.local.125
+                0x000000000008c851                _ZN3mwx2L112appdefs_virt8on_eventEmRm.local.134
+                0x000000000008c869                _ZN3mwx2L112appdefs_virt18cbToCoNet_vHwEventEmm.local.136
+                0x000000000008c881                _ZN3mwx2L112appdefs_virt18cbToCoNet_vTxEventERNS0_12packet_ev_txE.local.137
+                0x000000000008c899                _ZN3mwx2L112appdefs_virt19cbToCoNet_vNwkEventERNS0_13packet_ev_nwkE.local.139
+                0x000000000008c8b1                u8CCITT8
+                0x000000000008c8d7                bAES_CCM_KeyReg
+                0x000000000008c916                bFifoPush.3463
+                0x000000000008c94f                vAppQApiPostMlme.3449
+                0x000000000008c96e                vAppQApiPostMcps.3456
+                0x000000000008c989                pvFifoPull.3460
+                0x000000000008c9b0                psAppQApiGetMlmeBuffer.3446
+                0x000000000008c9b8                psAppQApiGetMcpsBuffer.3453
+                0x000000000008c9c0                PRSEV_vSetState
+                0x000000000008c9d0                PRSEV_vProcessEv_core.2333
+                0x000000000008ca72                PRSEV_vProcessEvPost
+                0x000000000008caa4                _PRSEV_vProcessEvSingle
+                0x000000000008cab1                ToCoNet_vMacStart
+ .text.unlikely
+                0x000000000008cabe       0x65 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans18.ltrans.o
+                0x000000000008cabe                _ZN3mwx2L112appdefs_virt18cbToCoNet_vRxEventERNS0_9packet_rxE.local.138
+                0x000000000008cad6                PRSEV_u8Register
+                0x000000000008cb14                _PRSEV_vProcessEvSingleH
+ .text          0x000000000008cb23      0x435 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans19.ltrans.o
+                0x000000000008cb23                eGenTmrExpiry.14701
+                0x000000000008cb65                eWEDTEdDone.14704
+                0x000000000008cb89                TSV_eStop
+                0x000000000008cc2a                vTAStidyUpAfterFrameTX
+                0x000000000008cc87                MAC_vHandleMcpsReqRsp
+                0x000000000008cd14                bMCPSframeTXcomplete.15436
+                0x000000000008cd69                bSendSyncLoss.19667
+                0x000000000008cd81                bPollReqSent.23263
+                0x000000000008cd99                bTASsendCommStatusInd
+                0x000000000008cdae                bAssocRespSent.12821
+                0x000000000008cdc1                eWChCChanChgd.14416
+ *fill*         0x000000000008cf58        0x0 00
+ .text          0x000000000008cf58      0x344 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans20.ltrans.o
+                0x000000000008cf58                vTAMCOframeRXcap
+                0x000000000008cf6a                vTAMCOframeRXgoingIdle
+                0x000000000008cf80                vTAMCOframeRXnobeacon
+                0x000000000008cf92                vTAMDEframeRX
+                0x000000000008d139                eWONTTxDone.14402
+                0x000000000008d167                eWBRTTxDone.14405
+                0x000000000008d185                vTAMCOframeTXgoingIdle
+                0x000000000008d19e                vTAMCOframeTXcap
+                0x000000000008d1c2                vTAMCOframeTXnobeacon
+                0x000000000008d1d7                vTAMCOframeStarting
+                0x000000000008d1f0                vTAMDEframeTXDEnull
+                0x000000000008d213                vTAMDEframeTXtrackingCAPgts
+                0x000000000008d23f                vTAMDEframePreSyncReq
+                0x000000000008d257                vTAMDEframeRXtrackingDR
+ .text          0x000000000008d29c      0x157 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans21.ltrans.o
+                0x000000000008d29c                _ZN3mwx2L112appdefs_crtpINS0_9NwkSimpleEE9_on_eventEPvmRm.local.190
+                0x000000000008d38c                vProcessEvCoreMac
+ .text          0x000000000008d3f3       0x25 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                0x000000000008d3f3                memcmp
+ .text          0x000000000008d418       0x19 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ *fill*         0x000000000008d431        0x3 00
+ .text          0x000000000008d434      0x204 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+                0x000000000008d434                __udivsi3
+ .text          0x000000000008d638       0x30 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+                0x000000000008d638                __divsi3
+ .text          0x000000000008d668      0x1b0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+                0x000000000008d668                __umodsi3
+ .text          0x000000000008d818       0x24 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+                0x000000000008d818                __modsi3
+ .text          0x000000000008d83c       0x39 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+                0x000000000008d83c                __fixunsdfsi
+ .text          0x000000000008d875      0x350 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+                0x000000000008d875                __udivdi3
+ .text          0x000000000008dbc5      0x312 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+                0x000000000008dbc5                __umoddi3
+ .text          0x000000000008ded7      0x682 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+                0x000000000008ded7                __adddf3
+ *fill*         0x000000000008e559        0x3 00
+ .text          0x000000000008e55c      0x5c8 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+                0x000000000008e55c                __divdf3
+ .text          0x000000000008eb24       0x7f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+                0x000000000008eb24                __nedf2
+                0x000000000008eb24                __eqdf2
+ .text          0x000000000008eba3       0xca c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+                0x000000000008eba3                __gedf2
+                0x000000000008eba3                __gtdf2
+ .text          0x000000000008ec6d       0xcb c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+                0x000000000008ec6d                __ledf2
+                0x000000000008ec6d                __ltdf2
+ .text          0x000000000008ed38      0x488 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+                0x000000000008ed38                __muldf3
+ .text          0x000000000008f1c0      0x693 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+                0x000000000008f1c0                __subdf3
+ .text          0x000000000008f853       0x64 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+                0x000000000008f853                __fixdfsi
+ .text          0x000000000008f8b7       0x61 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+                0x000000000008f8b7                __floatsidf
+ .text          0x000000000008f918       0x4f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+                0x000000000008f918                __floatunsidf
+ .text          0x000000000008f967       0x27 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libHardwareApi_JN516x.a(AHI_Interrupt.o)
+                0x000000000008f967                vAHI_InterruptSetPriority
+                0x000000000008f985                vAHI_InterruptSetActivePriorityLevel
+ .text.vMicroSyscall
+                0x000000000008f98e       0x17 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                0x000000000008f98e                vMicroSyscall
+ .text          0x000000000008f9a5       0x14 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+                0x000000000008f9a5                isdigit
+ .text          0x000000000008f9b9       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                0x000000000008f9b9                memset
+                0x000000000008f9cb                _flash_end = ABSOLUTE (.)
+
+.rela.dyn       0x000000000008f9cc        0x0
+ .rela.text     0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .rela.text.unlikely
+                0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .rela.rodata   0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .rela.data     0x0000000000000000        0x0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+                0x000000000400004c                . = ORIGIN (ram)
+
+.data           0x000000000400004c       0x1c load address 0x000000000008f9cc
+                0x000000000400004c                _ram_data_start = ABSOLUTE (.)
+ *(.data*)
+ .data          0x000000000400004c        0x1 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans2.ltrans.o
+                0x000000000400004c                _mwx_periph_u8_grain_gpio
+ .data          0x000000000400004d        0x1 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+                0x000000000400004d                u8TxWkrNow.26313
+ .data          0x000000000400004e        0x2 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans9.ltrans.o
+ .data.initinboot
+                0x0000000004000050        0x8 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+ .data          0x0000000004000058        0x1 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+ .data.initinboot
+                0x0000000004000059        0x1 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+                0x0000000004000059                gMAC_u8MaxBuffers
+ *fill*         0x000000000400005a        0x2 00
+ .data          0x000000000400005c        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+                0x000000000400005c                u32HeapStart
+ .data          0x0000000004000060        0x1 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans17.ltrans.o
+                0x0000000004000060                _toconet_tx_u8_init_queue_flag
+ *fill*         0x0000000004000061        0x3 00
+ .data          0x0000000004000064        0x4 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+                0x0000000004000064                __ctype_ptr__
+ *(.data.*)
+                0x0000000004000068                . = ALIGN (0x4)
+                0x0000000004000068                _ram_data_end = ABSOLUTE (.)
+
+.bss            0x0000000004000068     0x15d8 load address 0x000000000008f9e8
+                0x0000000004000068                _bss_start = ABSOLUTE (.)
+ *(.bss*)
+ .bss           0x0000000004000068       0x40 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o
+                0x0000000004000068                g_sLP
+                0x00000000040000a4                g_pvMac
+ .bss.initinboot
+                0x00000000040000a8        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o
+ .bss           0x00000000040000ac        0x8 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans1.ltrans.o
+ .bss           0x00000000040000b4       0x88 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans2.ltrans.o
+                0x00000000040000b4                TxWorker_u8Num.26270
+                0x00000000040000b8                apfTimerAppCallback.25139
+                0x00000000040000cc                au16TimerSettings.25088
+                0x00000000040000d6                gbTimeOutFlag.24926
+                0x00000000040000d8                prUart1AppCallback.25394
+                0x00000000040000dc                prUart0AppCallback.25393
+                0x00000000040000e0                sOpt.4934
+                0x00000000040000f0                _psSerial
+ .bss           0x000000000400013c       0xd0 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+                0x000000000400013c                sSerCmd_P3.5597
+                0x0000000004000148                Timer4
+                0x0000000004000150                Timer3
+                0x0000000004000158                Timer2
+                0x0000000004000160                Timer1
+                0x0000000004000168                Analogue
+                0x0000000004000180                SPI
+                0x0000000004000184                Wire
+                0x000000000400019c                SerialParser
+                0x00000000040001d8                Serial1
+                0x00000000040001f8                Buttons
+                0x0000000004000200                PulseCounter1
+                0x0000000004000204                PulseCounter0
+ .bss.dontinitinboot
+                0x000000000400020c        0x1 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o
+ *fill*         0x000000000400020d        0x3 00
+ .bss           0x0000000004000210        0x8 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans5.ltrans.o
+                0x0000000004000210                prAppHwCallback.3687
+                0x0000000004000214                prTickTimeAppCallback
+ .bss           0x0000000004000218       0x90 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans6.ltrans.o
+                0x0000000004000218                _ZL5_vcbs.7293
+                0x000000000400022c                sToCoNet_AppContext
+                0x0000000004000248                sToCoNet_Context
+                0x0000000004000290                sAssocSecurity.13446
+                0x000000000400029c                g_bJenieBackwardsCompatibilityMode
+ .bss           0x00000000040002a8       0x28 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+                0x00000000040002a8                sCh_Context.3319
+                0x00000000040002ac                asTx.26269
+ .bss.initinboot
+                0x00000000040002d0        0x1 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+ *fill*         0x00000000040002d1        0x3 00
+ .bss           0x00000000040002d4      0x28c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+                0x00000000040002d4                u8AppId_Pkt_head.4631
+                0x00000000040002d8                u32AppId.4628
+                0x00000000040002dc                u32MyAddr.4630
+                0x00000000040002e0                bRxQueue_Init.4629
+                0x00000000040002e4                psRxQueueList.4627
+                0x00000000040002f8                asEventHandler.2400
+                0x0000000004000398                sEvVars
+                0x00000000040003b4                u32TickCount_ms
+                0x00000000040003b8                au8Txdatabuff_idx_sTxQueue
+                0x00000000040003bc                u8TxBuffSiz_sTxQueue
+                0x00000000040003c0                sTxdatabuff_sTxQueue
+                0x00000000040003c4                sTxQueue
+                0x00000000040003e0                au8Rxdatabuff_idx_sRxQueue
+                0x00000000040003e4                u8RxBuffSiz_sRxQueue
+                0x00000000040003e8                sRxdatabuff_sRxQueue
+                0x00000000040003ec                sRxQueue
+                0x0000000004000408                au8Rxdatabuff_idx_sRxQueueCmd
+                0x000000000400040c                u8RxBuffSiz_sRxQueueCmd
+                0x0000000004000410                sRxdatabuff_sRxQueueCmd
+                0x0000000004000414                sRxQueueCmd.2851
+                0x0000000004000430                sContext.4752
+                0x000000000400045c                the_twelite
+                0x00000000040004f4                sToCoNet_Modules
+ .bss           0x0000000004000560       0xec C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans9.ltrans.o
+                0x0000000004000560                sMcpsIndQueue.3681
+                0x0000000004000570                sMcpsIndBufferQueue.3679
+                0x0000000004000580                sMlmeIndQueue.3682
+                0x0000000004000590                sMlmeIndBufferQueue.3680
+                0x00000000040005a0                sHwIndQueue.3683
+                0x00000000040005b0                sHwIndBufferQueue.3684
+                0x00000000040005c0                _u32_INT_adc_comp
+                0x00000000040005c4                _u32_INT_ticktimer
+                0x00000000040005c8                the_vsettings
+                0x00000000040005cc                the_vhw
+                0x00000000040005d0                the_vapp
+                0x00000000040005d4                the_vnet2
+                0x00000000040005d8                the_vnet
+                0x00000000040005dc                asSerialPorts
+                0x0000000004000614                Timer0
+                0x000000000400061c                Serial
+                0x000000000400063c                _periph_availmap
+ .bss           0x000000000400064c       0x14 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+                0x000000000400064c                pvPostFunc.2414
+                0x0000000004000650                u32PostArg.2413
+                0x0000000004000654                evPost.2412
+ .bss.dontinitinboot
+                0x0000000004000660        0x8 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+ .bss           0x0000000004000668        0xc C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+                0x0000000004000668                g_sXcv
+                0x000000000400066c                prMcpsRequest.9829
+                0x0000000004000670                prMlmeRequest.9828
+ .bss.initinboot
+                0x0000000004000674        0x8 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+                0x0000000004000674                g_u32MacAddrLocation
+                0x0000000004000678                prvUserTxStartedCallback
+ .bss           0x000000000400067c        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+ .bss.dontinitinboot
+                0x0000000004000680        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+ .bss           0x0000000004000684       0x2c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans14.ltrans.o
+                0x0000000004000684                asUARTS.4927
+                0x00000000040006a4                _SERIAL_bmTxIntEnabled
+ .bss           0x00000000040006b0      0x73c C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+                0x00000000040006b0                prSpiAppCallback.24727
+                0x00000000040006b4                prSiAppCallback.25940
+                0x00000000040006b8                prAppMcpsCallback.3685
+                0x00000000040006bc                prAppMlmeCallback.3686
+                0x00000000040006c0                bTxEventQueued.20562
+                0x00000000040006c1                u8TxEventStatus.20563
+                0x00000000040006c4                sAppHousekeeping
+                0x00000000040006dc                prApAppCallback.24493
+                0x00000000040006e0                bIntEnableFlag.24490
+ .bss.initinboot
+                0x0000000004000dec        0x4 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+                0x0000000004000dec                prSysCtrlAppCallback.24930
+ .bss           0x0000000004000df0       0x30 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans16.ltrans.o
+                0x0000000004000df0                prOriginalHandler.4762
+                0x0000000004000df4                the_mac
+ .bss           0x0000000004000e20      0x610 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans17.ltrans.o
+ .bss           0x0000000004001430       0x14 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans19.ltrans.o
+                0x0000000004001430                s_sTimerList
+                0x0000000004001440                u8AssocResponsesInProgress.13445
+ .bss.initinboot
+                0x0000000004001444      0x1bc C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans20.ltrans.o
+                0x0000000004001444                g_sMac
+ .bss.dontinitinboot
+                0x0000000004001600       0x40 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+                0x0000000004001600                isr_handlers
+ *(.bss.*)
+ *(.scommon*)
+ *(.scommon.*)
+ *(COMMON)
+                0x0000000004001640                . = ALIGN (0x4)
+                0x0000000004001640                _bss_end = ABSOLUTE (.)
+                0x0000000004001640                end = .
+
+.heap           0x0000000004001640      0xd16 load address 0x0000000000090fc0
+                0x0000000004001640                _heap_start = ABSOLUTE (.)
+                0x0000000004002356                . = (. + _minimum_heap_size)
+ *fill*         0x0000000004001640      0xd16 00
+
+.stack          0x0000000004007800      0x800 load address 0x0000000000097180
+                0x0000000004007800                _heap_end = ABSOLUTE (.)
+                0x0000000004007800                _stack_low_water_mark = ABSOLUTE (.)
+                0x0000000004008000                . = (. + _stack_size)
+ *fill*         0x0000000004007800      0x800 00
+                0x0000000004008000                _stack = .
+
+.test           0x000000000008f9e8        0x1
+                0x000000000008f9e8        0x1 BYTE 0xff
+                0x000000000008f9cc                _flash_data_start = LOADADDR (.data)
+                0x000000000000001c                _ram_data_len = (((_ram_data_end - _ram_data_start) + 0x3) & 0xfffffffffffffffc)
+                0x00000000000015d8                _bss_len = (((_bss_end - _bss_start) + 0x3) & 0xfffffffffffffffc)
+                0x000000000000f9e8                _image_len = ((((_flash_end - _flash_start) + _ram_data_len) + 0x3) & 0xfffffffffffffffc)
+                0x0000000004008000                _ram_top = (ABSOLUTE (ORIGIN (ram)) + 0x7fb4)
+                0x0000000004008000                ram_top = (ABSOLUTE (ORIGIN (ram)) + 0x7fb4)
+                0x0000000001001580                _app_ram_start = 0x1001580
+                0x000000000400005c                PROVIDE (_heap_location, u32HeapStart)
+                0x000000000400005c                PROVIDE (heap_location, u32HeapStart)
+                0x000000000008566f                TSV_eOpenVector = TSV_eOpen
+                0x00000000000851f0                TSV_eStartVector = TSV_eStart
+                0x000000000008cb89                TSV_eStopVector = TSV_eStop
+                0x00000000000830a1                pvAppApiGetMacHandle = pvAppApiDefGetMacHandle
+                0x0000000000089567                u32AppApiInit = u32AppApiDefInit
+                0x0000000000083076                vAppApiMlmeRequest = vAppApiDefMlmeRequest
+                0x000000000008592c                vAppApiMcpsRequest = vAppApiDefMcpsRequest
+                0x00000000000858d3                eAppApiPlmeSet = eAppApiDefPlmeSet
+                0x0000000000085881                eAppApiPlmeGet = eAppApiDefPlmeGet
+                0x0000000000085878                pvAppApiGetMacAddrLocation = pvAppApiDefGetMacAddrLocation
+                0x0000000000085748                vAppApiSaveMacSettings = vAppApiDefSaveMacSettings
+                0x0000000000085677                vAppApiRestoreMacSettings = vAppApiDefRestoreMacSettings
+OUTPUT(objs_BLUE/Sender_BLUE_L1305_V0-1-0.elf elf32-ba)
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans17.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans18.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans19.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans20.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\Makoto\AppData\Local\Temp\ccyJgsXp.ltrans21.ltrans.o
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .comment       0x0000000000000000       0x11 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libMicroSpecific_JN516x.a(MicroSyscall_ba.o)
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x12 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+
+.debug_info     0x0000000000000000     0x3562
+ .debug_info    0x0000000000000000       0xf3 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00000000000000f3      0x106 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000000001f9       0xb7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_info    0x00000000000002b0       0xb7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_info    0x0000000000000367       0xb7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_info    0x000000000000041e       0xb7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_info    0x00000000000004d5       0xd3 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_info    0x00000000000005a8      0x648 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000000bf0      0x69d c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_info    0x000000000000128d      0x4b2 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_info    0x000000000000173f      0x5c5 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_info    0x0000000000001d04      0x1e7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_info    0x0000000000001eeb      0x20b c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_info    0x00000000000020f6      0x20b c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_info    0x0000000000002301      0x5c7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_info    0x00000000000028c8      0x4b2 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_info    0x0000000000002d7a      0x1b7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_info    0x0000000000002f31      0x1d6 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_info    0x0000000000003107      0x1cb c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_info    0x00000000000032d2       0xaa C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_info    0x000000000000337c       0x77 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .debug_info    0x00000000000033f3       0xd7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_info    0x00000000000034ca       0x98 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+
+.debug_abbrev   0x0000000000000000     0x1211
+ .debug_abbrev  0x0000000000000000       0x8e c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x000000000000008e       0xa4 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000132       0x14 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_abbrev  0x0000000000000146       0x14 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_abbrev  0x000000000000015a       0x14 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_abbrev  0x000000000000016e       0x14 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_abbrev  0x0000000000000182       0x60 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_abbrev  0x00000000000001e2      0x15d c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000000000000033f      0x175 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00000000000004b4      0x133 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_abbrev  0x00000000000005e7      0x12f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_abbrev  0x0000000000000716      0x128 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_abbrev  0x000000000000083e      0x137 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_abbrev  0x0000000000000975      0x139 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_abbrev  0x0000000000000aae      0x141 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000000bef      0x133 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_abbrev  0x0000000000000d22      0x12a c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x0000000000000e4c      0x128 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_abbrev  0x0000000000000f74      0x128 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x000000000000109c       0x14 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_abbrev  0x00000000000010b0       0x76 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .debug_abbrev  0x0000000000001126       0x8e c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000011b4       0x5d c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+
+.debug_loc      0x0000000000000000     0x59bd
+ .debug_loc     0x0000000000000000       0x73 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000000073       0x39 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000000000000ac       0x48 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_loc     0x00000000000000f4      0xa7b c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000000b6f      0x985 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_loc     0x00000000000014f4     0x10f3 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_loc     0x00000000000025e7     0x117e c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000003765       0x83 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_loc     0x00000000000037e8      0x154 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_loc     0x000000000000393c       0xe6 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_loc     0x0000000000003a22      0xa0e c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_loc     0x0000000000004430     0x114e c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_loc     0x000000000000557e       0xa8 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_loc     0x0000000000005626      0x1be c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_loc     0x00000000000057e4      0x179 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_loc     0x000000000000595d       0x21 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .debug_loc     0x000000000000597e       0x3f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+
+.debug_aranges  0x0000000000000000      0x2d8
+ .debug_aranges
+                0x0000000000000000       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000020       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000040       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_aranges
+                0x0000000000000060       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_aranges
+                0x0000000000000080       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000100       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x0000000000000120       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_aranges
+                0x0000000000000140       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_aranges
+                0x0000000000000180       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_aranges
+                0x0000000000000200       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_aranges
+                0x0000000000000220       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_aranges
+                0x0000000000000240       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x0000000000000260       0x20 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_aranges
+                0x0000000000000280       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .debug_aranges
+                0x00000000000002a0       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000002c0       0x18 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+
+.debug_line     0x0000000000000000     0x2d55
+ .debug_line    0x0000000000000000      0x15a c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_line    0x000000000000015a      0x14e c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_line    0x00000000000002a8      0x47b c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
+ .debug_line    0x0000000000000723       0xbb c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
+ .debug_line    0x00000000000007de      0x3c7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
+ .debug_line    0x0000000000000ba5       0xa3 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
+ .debug_line    0x0000000000000c48       0x9f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x0000000000000ce7      0x1b7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000000e9e      0x1b7 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_line    0x0000000000001055      0x63d c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_line    0x0000000000001692      0x3b5 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_line    0x0000000000001a47       0xf1 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_line    0x0000000000001b38      0x15f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_line    0x0000000000001c97      0x15f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_line    0x0000000000001df6      0x269 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_line    0x000000000000205f      0x656 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_line    0x00000000000026b5       0xc8 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_line    0x000000000000277d       0xbc c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_line    0x0000000000002839       0xbe c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_line    0x00000000000028f7      0x197 C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/ChipLib/SW4063V1416/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
+ .debug_line    0x0000000000002a8e       0xd0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .debug_line    0x0000000000002b5e      0x144 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000002ca2       0xb3 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+
+.debug_str      0x0000000000000000      0x7ce
+ .debug_str     0x0000000000000000       0x49 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+                                        0x155 (size before relaxing)
+ .debug_str     0x0000000000000049       0x5d c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+                                        0x169 (size before relaxing)
+ .debug_str     0x00000000000000a6       0xc5 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+                                        0x169 (size before relaxing)
+ .debug_str     0x000000000000016b       0x7b c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+                                        0x1d7 (size before relaxing)
+ .debug_str     0x00000000000001e6        0xa c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+                                        0x1d7 (size before relaxing)
+ .debug_str     0x00000000000001f0       0xc6 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+                                        0x1ba (size before relaxing)
+ .debug_str     0x00000000000002b6       0x7a c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+                                        0x1f9 (size before relaxing)
+ .debug_str     0x0000000000000330       0x3f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+                                        0x16e (size before relaxing)
+ .debug_str     0x000000000000036f       0x57 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+                                        0x186 (size before relaxing)
+ .debug_str     0x00000000000003c6       0x3f c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+                                        0x186 (size before relaxing)
+ .debug_str     0x0000000000000405       0x72 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+                                        0x1eb (size before relaxing)
+ .debug_str     0x0000000000000477       0x41 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+                                        0x1ba (size before relaxing)
+ .debug_str     0x00000000000004b8       0x4b c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+                                        0x17f (size before relaxing)
+ .debug_str     0x0000000000000503       0x54 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+                                        0x188 (size before relaxing)
+ .debug_str     0x0000000000000557       0x4b c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+                                        0x185 (size before relaxing)
+ .debug_str     0x00000000000005a2       0xca c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+                                         0xcf (size before relaxing)
+ .debug_str     0x000000000000066c      0x110 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+                                        0x155 (size before relaxing)
+ .debug_str     0x000000000000077c       0x52 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-ctype_.o)
+                                         0xe0 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x26c
+ .debug_frame   0x0000000000000000       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000020       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000040       0x2c c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x000000000000006c       0x30 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_frame   0x000000000000009c       0x34 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_frame   0x00000000000000d0       0x30 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_frame   0x0000000000000100       0x34 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_frame   0x0000000000000134       0x34 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000000168       0x34 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_frame   0x000000000000019c       0x30 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_frame   0x00000000000001cc       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
+ .debug_frame   0x00000000000001ec       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatsidf.o)
+ .debug_frame   0x000000000000020c       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsidf.o)
+ .debug_frame   0x000000000000022c       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-isdigit.o)
+ .debug_frame   0x000000000000024c       0x20 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
+
+.debug_ranges   0x0000000000000000      0x558
+ .debug_ranges  0x0000000000000000       0xa0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x00000000000000a0       0x80 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_umoddi3.o)
+ .debug_ranges  0x0000000000000120       0x80 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
+ .debug_ranges  0x00000000000001a0       0xb0 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
+ .debug_ranges  0x0000000000000250       0x38 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqdf2.o)
+ .debug_ranges  0x0000000000000288       0x58 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
+ .debug_ranges  0x00000000000002e0       0x40 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(ledf2.o)
+ .debug_ranges  0x0000000000000320      0x1a8 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
+ .debug_ranges  0x00000000000004c8       0x78 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
+ .debug_ranges  0x0000000000000540       0x18 c:/users/makoto/desktop/mwstage-2022-08_win10-1/mwstage/tools/ba-elf-ba2-r36379.w10/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
