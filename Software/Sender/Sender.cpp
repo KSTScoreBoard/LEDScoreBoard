@@ -8,9 +8,10 @@ const uint32_t APP_ID = 0x1234abcd;
 const uint8_t CHANNEL = 13;
 
 /*** function prototype */
-void vTransmit(uint16_t* _payload);
+void vTransmit(uint16_t command, uint16_t value);
 
 uint8_t score[3] = {0,0,0};
+uint16_t bright = 512;
 
 /*** the setup procedure (called on boot) */
 void setup() {
@@ -36,27 +37,39 @@ void loop() {
     while(Serial.available()){
         int c = Serial.read();
         Serial << mwx::crlf << char(c) << ':';
-        if(char(c) == 'c'){
-            Timer0.begin(1);
-            break;
+        switch(char(c)){
+            case 'c':
+                Timer0.begin(1);
+                break;
+            case 'u':
+                bright += 128;
+                if(bright > 1024) bright = 1024;
+                vTransmit(1,bright);
+                break;
+            case 'd':
+                bright -= 128;
+                if(bright > 1024) bright = 0;
+                vTransmit(1,bright);
+                break;
+            case 'x':
+                Timer0.end();
+                vTransmit(0,score[0]*100 + score[1]*10 + score[2]);
+                break;
         }
         if(isdigit(char(c))){
-            Timer0.end();
             score[0] = score[1];
             score[1] = score[2];
             score[2] = c - '0';
-            uint16_t payload[1] = {score[0] * 100 + score[1] * 10 + score[2]};
-            vTransmit(payload);
+            Serial << "<Score" << format(" =%d%d%d>",score[0],score[1],score[2]) << crlf;
         }
     }
 
     if(Timer0.available()){
-        uint16_t payload[1] = {(millis()/1000)%1000};
-        vTransmit(payload);
+        vTransmit(0,(millis()/1000)%1000);
     }
 }
 
-void vTransmit(uint16_t* payload){
+void vTransmit(uint16_t command, uint16_t value){
     if (auto&& pkt = the_twelite.network.use<NWK_SIMPLE>().prepare_tx_packet()) {
         // set tx packet behavior
         pkt << tx_addr(0xFF)  // 0..0xFF (LID 0:parent, FE:child w/ no id, FF:LID broad cast), 0x8XXXXXXX (long address)
@@ -65,11 +78,12 @@ void vTransmit(uint16_t* payload){
 
         // prepare packet payload
         pack_bytes(pkt.get_payload() // set payload data objects.
-            , uint16_t(payload[0]) // put timestamp here.
+            , uint16_t(command) // put timestamp here.
+            , uint16_t(value)
         );
     
         // do transmit 
         pkt.transmit();
-        Serial << "<TX " << format(" payload=%03ds>",payload[0]) << crlf;
+        Serial << "<TX " << format(" command=%d, value=%d>",command,value) << crlf;
     }
 }

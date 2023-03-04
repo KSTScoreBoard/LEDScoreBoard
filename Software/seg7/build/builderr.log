@@ -1,14 +1,2 @@
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp: In function 'void setup()':
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp:43:9: warning: unused variable 'brd' [-Wunused-variable]
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp: In function 'void on_rx_packet(mwx::L1::packet_rx&, bool_t&)':
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp:150:76: warning: narrowing conversion of '(int)(timestamp / 100u)' from 'int' to 'uint8_t {aka unsigned char}' inside { } [-Wnarrowing]
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp:150:76: warning: narrowing conversion of '(int)((timestamp % 100u) / 10u)' from 'int' to 'uint8_t {aka unsigned char}' inside { } [-Wnarrowing]
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp:150:76: warning: narrowing conversion of '(int)(timestamp % 10u)' from 'int' to 'uint8_t {aka unsigned char}' inside { } [-Wnarrowing]
-In file included from C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_utils_smplbuf.hpp:14:0,
-                 from C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_utils_payload.hpp:12,
-                 from C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/src/mwx/_tweltite.hpp:33,
-                 from C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/src/mwx/twelite.hpp:6,
-                 from C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/src/mwx/TWELITE:3,
-                 from C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp:2:
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_stream.hpp:77:13: warning: 'timestamp' may be used uninitialized in this function [-Wmaybe-uninitialized]
-C:/Users/Makoto/Desktop/MWSTAGE-2022-08_win10-1/MWSTAGE/MWSDK/Act_samples/seg7/seg7.cpp:130:11: note: 'timestamp' was declared here
+C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp: In function 'void setup()':
+C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp:49:9: warning: unused variable 'brd' [-Wunused-variable]
