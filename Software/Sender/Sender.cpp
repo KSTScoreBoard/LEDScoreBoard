@@ -8,7 +8,7 @@ const uint32_t APP_ID = 0x1234abcd;
 const uint8_t CHANNEL = 13;
 
 /*** function prototype */
-void vTransmit(uint16_t command, uint16_t value);
+void vTransmit(uint8_t addr, uint16_t score, uint16_t bright);
 
 uint8_t score[3] = {0,0,0};
 uint16_t bright = 512;
@@ -26,9 +26,9 @@ void setup() {
 	nwksmpl << NWK_SIMPLE::logical_id(0xFE) // set Logical ID. (0xFE means a child device with no ID)
 	        << NWK_SIMPLE::repeat_max(3);   // can repeat a packet up to three times. (being kind of a router)
     
-    
+    SerialParser.begin(PARSER::ASCII, 128); // Initialize the serial parser
     the_twelite.begin(); // start twelite!
-    Timer0.begin(1);
+    //Timer0.begin(1);
     Serial << "--- Sender ---" << crlf;
 }
 
@@ -36,54 +36,41 @@ void setup() {
 void loop() {
     while(Serial.available()){
         int c = Serial.read();
-        Serial << mwx::crlf << char(c) << ':';
-        switch(char(c)){
-            case 'c':
+        
+        SerialParser.parse(c);
+        
+        if(SerialParser) {
+            // 書式解釈完了、b に得られたデータ列(smplbuf<uint8_t>)
+            auto&& b = SerialParser.get_buf();
+            vTransmit(b[0],b[1]*100 + b[2]*10 + b[3],b[4]);
+            if(b[5]){
                 Timer0.begin(1);
-                break;
-            case 'u':
-                bright += 128;
-                if(bright > 1024) bright = 1024;
-                vTransmit(1,bright);
-                break;
-            case 'd':
-                bright -= 128;
-                if(bright > 1024) bright = 0;
-                vTransmit(1,bright);
-                break;
-            case 'x':
+            }else{
                 Timer0.end();
-                vTransmit(0,score[0]*100 + score[1]*10 + score[2]);
-                break;
-        }
-        if(isdigit(char(c))){
-            score[0] = score[1];
-            score[1] = score[2];
-            score[2] = c - '0';
-            Serial << "<Score" << format(" =%d%d%d>",score[0],score[1],score[2]) << crlf;
+            }
         }
     }
 
     if(Timer0.available()){
-        vTransmit(0,(millis()/1000)%1000);
+        vTransmit(0xFF,(millis()/1000)%1000,128);
     }
 }
 
-void vTransmit(uint16_t command, uint16_t value){
+void vTransmit(uint8_t addr,uint16_t score,uint16_t bright){
     if (auto&& pkt = the_twelite.network.use<NWK_SIMPLE>().prepare_tx_packet()) {
         // set tx packet behavior
-        pkt << tx_addr(0xFF)  // 0..0xFF (LID 0:parent, FE:child w/ no id, FF:LID broad cast), 0x8XXXXXXX (long address)
+        pkt << tx_addr(addr)  // 0..0xFF (LID 0:parent, FE:child w/ no id, FF:LID broad cast), 0x8XXXXXXX (long address)
             << tx_retry(0x3) // set retry (0x3 send four times in total)
             << tx_packet_delay(100,200,20); // send packet w/ delay (send first packet with randomized delay from 100 to 200ms, repeat every 20ms)
 
         // prepare packet payload
         pack_bytes(pkt.get_payload() // set payload data objects.
-            , uint16_t(command) // put timestamp here.
-            , uint16_t(value)
+            , score
+            , bright
         );
     
         // do transmit 
         pkt.transmit();
-        Serial << "<TX " << format(" command=%d, value=%d>",command,value) << crlf;
+        Serial << "<TX " << format("in.op") << crlf;
     }
 }

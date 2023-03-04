@@ -130,13 +130,13 @@ void loop() {
 
 void on_rx_packet(packet_rx& rx, bool_t &handled) {
 	// rx >> Serial; // debugging (display longer packet information)
-	uint16_t command;
-	uint16_t value;
+	uint16_t _score = 0;
+	uint16_t _bright = 0;
 
 	// expand packet payload (shall match with sent packet data structure, see pack_bytes())
 	expand_bytes(rx.get_payload().begin(), rx.get_payload().end()
-				, command
-				, value
+				, _score
+				, _bright
 	);
 
 	// display the packet
@@ -146,23 +146,17 @@ void on_rx_packet(packet_rx& rx, bool_t &handled) {
 				, rx.get_length()
 				, rx.get_psRxDataApp()->u8Seq
 				)
-			<< format(" command=%d, value=%d>" // note: up to 4 args!
-				, command
-				, value
+			<< format(" score=%d, bright=%d>" // note: up to 4 args!
+				, _score
+				, _bright
 				)
 			<< mwx::crlf
 			<< mwx::flush;
 
-	switch(command){
-		case 0:
-			score[0] = value / 100;
-			score[1] = (value%100)/10;
-			score[2] = value % 10;
-			break;
-		case 1:
-			bright = value;
-			break;
-	}
+	score[0] = _score / 100;
+	score[1] = (_score%100)/10;
+	score[2] = _score % 10;
+	bright = _bright << 2;
 	setScore();
 }
 
