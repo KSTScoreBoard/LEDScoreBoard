@@ -1,2 +1,4 @@
 C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp: In function 'void setup()':
-C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp:49:9: warning: unused variable 'brd' [-Wunused-variable]
+C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp:50:9: warning: unused variable 'brd' [-Wunused-variable]
+C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp: In function 'void display()':
+C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp:179:79: warning: spurious trailing '%' in format [-Wformat]

@@ -5,8 +5,8 @@
 #include <stdio.h>
 #include "ST7032.h"
 
-#define add_01 2
-#define add_02 3
+#define addr_01 2
+#define addr_02 3
 
 #define Button_PlusOne 12
 #define Button_MinusOne 13
@@ -18,14 +18,14 @@
 #define _SCLR 4
 
 void shiftOut(uint8_t, uint8_t, uint8_t, uint32_t);
-void setScore();
+void display();
 
 // application ID
 const uint32_t APP_ID = 0x1234abcd;
 // channel
 const uint8_t CHANNEL = 13;
 
-uint8_t add = 0;
+uint8_t addr = 0;
 
 ST7032 lcd;
 
@@ -42,6 +42,7 @@ uint8_t segment[11] = {0b1111110,
 					   0x00};
 uint8_t score[3] = {0,0,0};
 uint16_t bright = 128;
+uint8_t lq = 0;
 
 /*** setup procedure (run once at cold boot) */
 void setup() {
@@ -66,13 +67,13 @@ void setup() {
     Buttons.begin(1UL << 5, 5, 10);
 	
 	Timer4.change_hz(10000);
-	Timer4.change_duty(1024 - bright);
+	Timer4.change_duty(256 - bright,256);
 
 	lcd.begin(8,2);
     lcd.setContrast(25);
 
-	pinMode(add_01,INPUT_PULLUP);
-	pinMode(add_02,INPUT_PULLUP);
+	pinMode(addr_01,INPUT_PULLUP);
+	pinMode(addr_02,INPUT_PULLUP);
 	pinMode(Button_PlusOne,INPUT_PULLUP);
 	pinMode(Button_MinusOne,INPUT_PULLUP);
 	pinMode(Button_PlusTen,INPUT_PULLUP);
@@ -81,15 +82,19 @@ void setup() {
 	pinMode(Button_MinusHun,INPUT_PULLUP);
 	pinMode(_SCLR,OUTPUT);
 
-	add = (digitalRead(add_01)  ==  HIGH ? 0 : 1) | (digitalRead(add_02) == HIGH ? 0 : 1) << 1;
-	Serial << format("%d\n",add) << crlf;
+	addr = (digitalRead(addr_01)  ==  HIGH ? 0 : 1) | (digitalRead(addr_02) == HIGH ? 0 : 1) << 1;
+	Serial << format("%d\n",addr) << crlf;
 
 	Buttons.setup(5);
 	Buttons.begin(1UL << Button_PlusOne | 1UL << Button_MinusOne | 
 				  1UL << Button_PlusTen | 1UL << Button_MinusTen |
 				  1UL << Button_PlusHun | 1UL << Button_MinusHun,5,10);
 	
-	Serial << "--- This Is Receiver ---" << crlf;				
+	char str[64];
+	sprintf(str,"id=%d\n",addr);
+	lcd.print(str);
+	Serial << "--- This Is Receiver ---" << crlf;
+	delay(1000);			
 }
 
 /*** loop procedure (called every event) */
@@ -124,7 +129,7 @@ void loop() {
 		if(score[1] > 9) score[1] = 0;
 		if(score[2] > 9) score[2] = 0;
 
-		setScore();
+		display();
     }
 }
 
@@ -156,20 +161,21 @@ void on_rx_packet(packet_rx& rx, bool_t &handled) {
 	score[0] = _score / 100;
 	score[1] = (_score%100)/10;
 	score[2] = _score % 10;
-	bright = _bright << 2;
-	setScore();
+	bright = _bright;
+	lq = rx.get_lqi();
+	display();
 }
 
-void setScore(){
+void display(){
 	if (auto&& trs = SPI.get_rwer()) { // オブジェクトの生成とデバイスの通信判定
 		// このスコープ(波かっこ)内が trs の有効期間。
 		trs << (uint8_t)(segment[score[0]]);
 		trs << (uint8_t)(segment[score[1]]);
 		trs << (uint8_t)(segment[score[2]]);
 	}
-	Timer4.change_duty(1024 - bright);
+	Timer4.change_duty(256 - bright,256);
 
 	char str[64];
-	sprintf(str,"%d%d%d    %d\nb=%d",score[0],score[1],score[2],add,bright);
+	sprintf(str,"%d%d%d %d\nq=%d%",score[0],score[1],score[2],bright,(lq*100/255));
 	lcd.print(str);
 }

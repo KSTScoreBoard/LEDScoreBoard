@@ -10,6 +10,13 @@ void setup() {
 void loop() {
     while (Serial.available()) {
         int c = Serial.read();
-        Serial << format("%d",c) << crlf;
+        
+        SerialParser.parse(c);
+        
+        if(SerialParser) {
+            // 書式解釈完了、b に得られたデータ列(smplbuf<uint8_t>)
+            auto&& b = SerialParser.get_buf();
+            
+        }
     }
 }

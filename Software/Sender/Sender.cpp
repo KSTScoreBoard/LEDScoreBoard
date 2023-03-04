@@ -11,7 +11,7 @@ const uint8_t CHANNEL = 13;
 void vTransmit(uint8_t addr, uint16_t score, uint16_t bright);
 
 uint8_t score[3] = {0,0,0};
-uint16_t bright = 512;
+uint16_t bright = 128;
 
 /*** the setup procedure (called on boot) */
 void setup() {
@@ -52,7 +52,7 @@ void loop() {
     }
 
     if(Timer0.available()){
-        vTransmit(0xFF,(millis()/1000)%1000,128);
+        vTransmit(0xFF,(millis()/1000)%1000,bright);
     }
 }
 
