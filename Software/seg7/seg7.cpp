@@ -33,8 +33,8 @@ uint8_t segment[11] = {0b1111110,
 					   0b1111111,
 					   0b1111011,
 					   0x00};
-int16_t score = 0;
-int16_t brightness = 8;
+int16_t score = 888;
+int16_t brightness = 4;
 uint8_t lq = 0;
 
 /*** setup procedure (run once at cold boot) */
@@ -75,7 +75,7 @@ void setup() {
 	the_twelite.begin(); // start twelite!
 	Timer1.end();
 	Timer2.end();
-	Timer4.change_hz(10000);
+	Timer4.change_hz(5000);
 	Timer4.change_duty(DUTY_MAX - brightness,DUTY_MAX);
 	SPI.begin(0, SPISettings(100000, SPI_CONF::LSBFIRST, SPI_CONF::SPI_MODE0));
 	
