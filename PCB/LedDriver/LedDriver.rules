@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 11895)
+    (start_pass_no 8843)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -89,11 +89,9 @@
     "/digitDriver_one/QG" "/digitDriver_ten/QA" "/digitDriver_ten/QB" "/digitDriver_ten/QC" "/digitDriver_ten/QD" "/digitDriver_ten/QE" "/digitDriver_ten/QF" "/digitDriver_ten/QG"
     "/digitDriver_hun/QA" "/digitDriver_hun/QB" "/digitDriver_hun/QC" "/digitDriver_hun/QD" "/digitDriver_hun/QE" "/digitDriver_hun/QF" "/digitDriver_hun/QG" /PlusOne
     /MinusOne /PlusTen /MinusTen /PlusHun /MinusHun /SCK /PRG /SI
-    /RCK "/_SCLR" /TX /RX "/_G" "unconnected-(U101-Pad18)" "unconnected-(U101-Pad19)" "unconnected-(U101-Pad22)"
-    /ADC1 "unconnected-(U101-Pad24)" "unconnected-(U101-Pad25)" "unconnected-(U101-Pad29)" "unconnected-(U201-Pad6)" "unconnected-(U202-Pad6)" "unconnected-(U203-Pad6)" "unconnected-(U204-Pad6)"
-    "unconnected-(U205-Pad6)" "unconnected-(U206-Pad6)" "unconnected-(U207-Pad6)" "/digitDriver_one/QH" "unconnected-(U208-Pad15)" "unconnected-(U301-Pad6)" "unconnected-(U302-Pad6)" "unconnected-(U303-Pad6)"
-    "unconnected-(U304-Pad6)" "unconnected-(U305-Pad6)" "unconnected-(U306-Pad6)" "unconnected-(U307-Pad6)" "/digitDriver_hun/SI" "unconnected-(U308-Pad15)" "unconnected-(U401-Pad6)" "unconnected-(U402-Pad6)"
-    "unconnected-(U403-Pad6)" "unconnected-(U404-Pad6)" "unconnected-(U405-Pad6)" "unconnected-(U406-Pad6)" "unconnected-(U407-Pad6)" "/digitDriver_hun/QH" "unconnected-(U408-Pad15)" "unconnected-(J102-Pad7)"
+    /RCK "unconnected-(U101-Pad6)" /TX /RX "/_G" "unconnected-(U101-Pad18)" "unconnected-(U101-Pad19)" "unconnected-(U101-Pad22)"
+    /ADC1 "unconnected-(U101-Pad24)" "unconnected-(U101-Pad25)" "unconnected-(U101-Pad29)" "/digitDriver_one/QH" "unconnected-(U208-Pad15)" "/digitDriver_hun/SI" "unconnected-(U308-Pad15)"
+    "/digitDriver_hun/QH" "unconnected-(U408-Pad15)" "unconnected-(J102-Pad7)"
     (clearance_class default)
     (via_rule default)
     (rule
