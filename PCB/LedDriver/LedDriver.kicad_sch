@@ -2559,7 +2559,7 @@
     (property "Value" "MountingHole" (id 1) (at 27.94 172.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 25.4 171.45 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 25.4 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 25.4 171.45 0)
@@ -2741,7 +2741,7 @@
     (property "Value" "MountingHole" (id 1) (at 27.94 187.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 25.4 186.69 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 25.4 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 25.4 186.69 0)
@@ -2943,7 +2943,7 @@
     (property "Value" "MountingHole" (id 1) (at 27.94 177.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 25.4 176.53 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 25.4 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 25.4 176.53 0)
@@ -3284,7 +3284,7 @@
     (property "Value" "MountingHole" (id 1) (at 27.94 182.8799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (id 2) (at 25.4 181.61 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 25.4 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 25.4 181.61 0)
@@ -3651,6 +3651,15 @@
     (path "/2162f8f1-e601-45ef-800e-3215c37183a2"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e8372379-4f81-4714-a4bd-0da8f876e2d2/d8818bbe-48f0-473f-9c8f-9df4557a2604"
+      (reference "#PWR0126") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/d8818bbe-48f0-473f-9c8f-9df4557a2604"
+      (reference "#PWR0127") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/67d089be-80a1-4b77-b39f-7287a2db11d8/d8818bbe-48f0-473f-9c8f-9df4557a2604"
+      (reference "#PWR0128") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/e8372379-4f81-4714-a4bd-0da8f876e2d2/7fbde03d-bca5-4c17-9b34-3f56ffbb2c6f"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
@@ -4002,15 +4011,6 @@
     (path "/67d089be-80a1-4b77-b39f-7287a2db11d8/f7b44a04-23d1-4dae-a555-9476b47b91cd"
       (reference "#PWR0439") (unit 1) (value "GND") (footprint "")
     )
-    (path "/67d089be-80a1-4b77-b39f-7287a2db11d8/d8818bbe-48f0-473f-9c8f-9df4557a2604"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/e8372379-4f81-4714-a4bd-0da8f876e2d2/d8818bbe-48f0-473f-9c8f-9df4557a2604"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/6a3af4d5-d6c8-45cb-bbe0-393f0deb387e/d8818bbe-48f0-473f-9c8f-9df4557a2604"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/f611c082-111a-4b50-92ff-deff296724dc"
       (reference "C101") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -4174,16 +4174,16 @@
       (reference "D407") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/5c86494f-8b0f-4cd5-9d71-9e827be728e0"
-      (reference "H101") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
+      (reference "H101") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/a6450fc2-0c7e-49c4-a909-a7cadc910e3a"
-      (reference "H102") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
+      (reference "H102") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/eeb57c59-27bd-4b66-983e-819791e6d7df"
-      (reference "H103") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
+      (reference "H103") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/7e976bb6-b36f-478a-8a8b-ee2127a8a13e"
-      (reference "H104") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3mm")
+      (reference "H104") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/76c6fb69-0fe3-42b3-afbd-47a4ef169770"
       (reference "H105") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_6.4mm_M6")
