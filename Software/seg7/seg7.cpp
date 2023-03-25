@@ -67,7 +67,7 @@ void setup() {
 		<< TWENET::rx_when_idle();  // open receive circuit (if not set, it can't listen packts from others)
 	
 	// Register Network
-	uint8_t addr = (digitalRead(addr_01)  ==  HIGH ? 0 : 1) | (digitalRead(addr_02) == HIGH ? 0 : 1) << 1;
+	uint8_t addr = 1 + (digitalRead(addr_01)  ==  HIGH ? 0 : 1) | (digitalRead(addr_02) == HIGH ? 0 : 1) << 1;
 	auto&& nwksmpl = the_twelite.network.use<NWK_SIMPLE>();
 	nwksmpl << NWK_SIMPLE::logical_id(addr) // set Logical ID. (0xFE means a child device with no ID)
 	        << NWK_SIMPLE::repeat_max(3);   // can repeat a packet up to three times. (being kind of a router)
@@ -85,7 +85,7 @@ void setup() {
 	char str[64];
 	sprintf(str,"id=%d\n",addr);
 	lcd.print(str);
-	Serial << "--- This Is Receiver ---" << crlf;
+	Serial << "--- This Is Receiver id=" << format("%d",addr) << "---" << crlf;
 	delay(1000);			
 }
 

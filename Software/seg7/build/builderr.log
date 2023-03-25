@@ -1,4 +1,5 @@
 C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp: In function 'void setup()':
+C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp:70:106: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
 C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp:63:9: warning: unused variable 'brd' [-Wunused-variable]
 C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp: In function 'void display()':
 C:/Users/Makoto/Desktop/LEDScoreBoard/Software/seg7/seg7.cpp:174:60: warning: spurious trailing '%' in format [-Wformat]
