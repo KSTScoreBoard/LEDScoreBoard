@@ -9,10 +9,10 @@
 
 ブラウザ(中継)
 
-| WebSerialAPI [b1_UpperByte,b1_lowerByte]
+| WebSerialAPI [b1_ScoreUpperByte,b1_ScorelowerByte,b1_lv]
 
 Twelite(親機)
 
-| 無線
+| 無線 [address,Score,lv]
 
 TweLite(子機）x4
