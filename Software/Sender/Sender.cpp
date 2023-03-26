@@ -20,7 +20,7 @@ void setup() {
 	nwksmpl << NWK_SIMPLE::logical_id(0x00) // set Logical ID. (0xFE means a child device with no ID)
 	        << NWK_SIMPLE::repeat_max(3);   // can repeat a packet up to three times. (being kind of a router)
     
-    SerialParser.begin(PARSER::ASCII, 128); // Initialize the serial parser
+    SerialParser.begin(PARSER::BINARY, 128); // Initialize the serial parser
     the_twelite.begin(); // start twelite!
     //Timer0.begin(1);
     Serial << "--- Sender ---" << crlf;
@@ -34,14 +34,7 @@ void loop() {
         if(SerialParser) {
             // 書式解釈完了、b に得られたデータ列(smplbuf<uint8_t>)
             auto&& b = SerialParser.get_buf();
-            vTransmit(b[0],b[1]*100 + b[2]*10 + b[3],b[4]);
-            brightness = (int)b[4];
-
-            if(b[5]){
-                Timer0.begin(1);
-            }else{
-                Timer0.end();
-            }
+            vTransmit(b[0],(b[1] << 8) + b[2],b[3]);
         }
     }
 
