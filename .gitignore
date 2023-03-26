@@ -2,10 +2,11 @@ PCB/LedDriver/LedDriver-backups/
 PCB/LedDriver/LedDriver.kicad_prl
 PCB/LedDriver/fp-info-cache
 
-Software/
 !/Software/seg7/seg7.cpp
 !/Software/seg7/ST7032.cpp
 !/Software/seg7/ST7032.h
 
 
 !/Software/Sender/Sender.cpp
+
+Software/
