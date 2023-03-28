@@ -10,12 +10,12 @@
 #define addr_01 2
 #define addr_02 3
 
-#define Button_PlusOne 12
-#define Button_MinusOne 13
+#define Button_PlusOne 5
+#define Button_MinusOne 9
 #define Button_PlusTen 10
 #define Button_MinusTen 11
-#define Button_PlusHun 5
-#define Button_MinusHun 9
+#define Button_PlusHun 12
+#define Button_MinusHun 13
 
 #define _SCLR 4
 
@@ -36,6 +36,7 @@ uint8_t segment[11] = {0b1111110,
 int16_t score = 888;
 int16_t brightness = 4;
 uint8_t lq = 0;
+int16_t temp;
 
 /*** setup procedure (run once at cold boot) */
 void setup() {
@@ -57,6 +58,9 @@ void setup() {
 		Buttons.begin(1UL << Button_PlusOne | 1UL << Button_MinusOne | 
 					1UL << Button_PlusTen | 1UL << Button_MinusTen |
 					1UL << Button_PlusHun | 1UL << Button_MinusHun,5,10);
+
+		Analogue.setup(true, ANALOGUE::KICK_BY_TIMER0);
+		Analogue.begin(BRD_APPTWELITE::PIN_AI1);
 	}
 
 	// the twelite main class
@@ -73,6 +77,7 @@ void setup() {
 	        << NWK_SIMPLE::repeat_max(3);   // can repeat a packet up to three times. (being kind of a router)
 	
 	the_twelite.begin(); // start twelite!
+	Timer0.begin(10,true);
 	Timer1.end();
 	Timer2.end();
 	Timer4.change_hz(5000);
@@ -95,37 +100,36 @@ void loop() {
         uint32_t bm, cm;
         Buttons.read(bm, cm);
 
-		int _score[3] = {score / 100, (score%100)/10, score % 10};
 		if(!(bm & (1UL << Button_MinusHun | 1UL << Button_PlusOne))){
 			brightness += 1;
 		}else if(!(bm & (1UL << Button_MinusHun | 1UL << Button_MinusOne))){
 			brightness -= 1;
 		}else if (!(bm & (1UL << Button_PlusOne))) {
-			_score[2]++;
+			score+=1;
         }else if(!(bm & (1UL << Button_MinusOne))){
-            _score[2]--;
+            score-=1;
         }else if(!(bm & (1UL << Button_PlusTen))){
-            _score[1]++;
+            score+=10;
         }else if(!(bm & (1UL << Button_MinusTen))){
-            _score[1]--;
+            score-=10;
         }else if(!(bm & (1UL << Button_PlusHun))){
-            _score[0]++;
+            score+=100;
         }else if(!(bm & (1UL << Button_MinusHun))){
-            _score[0]--;
+            score-=100;
         }
 
 		if(brightness >= 8) brightness = 8;
 		if(brightness < 0) brightness = 0;
-		if(_score[0] < 0) _score[0] = 9;
-		if(_score[1] < 0) _score[1] = 9;	
-		if(_score[2] < 0) _score[2] = 9;
-		if(_score[0] > 9) _score[0] = 0;
-		if(_score[1] > 9) _score[1] = 0;
-		if(_score[2] > 9) _score[2] = 0;
+		if(score > 999)score = 999;
+		if(score < 0)score = 0;
 		
-		score = _score[0]*100 + _score[1]*10 + _score[2];
 		display();
     }
+
+	if(Analogue.available()){
+		temp = (Analogue.read(BRD_APPTWELITE::PIN_AI1)-600)/10;
+		display();
+	}
 }
 
 void on_rx_packet(packet_rx& rx, bool_t &handled) {
@@ -171,6 +175,6 @@ void display(){
 	Timer4.change_duty(DUTY_MAX - brightness ,DUTY_MAX);
 
 	char str[64];
-	sprintf(str,"%03d %d\nq=%d%",score,brightness,(lq*100/255));
+	sprintf(str,"%03d %d\nt=%d",score,brightness,temp);
 	lcd.print(str);
 }
