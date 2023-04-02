@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "NJW4617DL3-TE1")(type "KiCad")(uri "${KIPRJMOD}/NJW4617DL3-TE1/NJW4617DL3-TE1.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries-main/libraries/Espressif.kicad_sym")(options "")(descr ""))
 )

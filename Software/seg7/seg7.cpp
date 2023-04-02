@@ -36,7 +36,7 @@ uint8_t segment[11] = {0b1111110,
 int16_t score = 888;
 int16_t brightness = 4;
 uint8_t lq = 0;
-int16_t temp;
+int8_t temp;
 
 /*** setup procedure (run once at cold boot) */
 void setup() {
@@ -77,7 +77,7 @@ void setup() {
 	        << NWK_SIMPLE::repeat_max(3);   // can repeat a packet up to three times. (being kind of a router)
 	
 	the_twelite.begin(); // start twelite!
-	Timer0.begin(10,true);
+	Timer0.begin(5,true);
 	Timer1.end();
 	Timer2.end();
 	Timer4.change_hz(5000);

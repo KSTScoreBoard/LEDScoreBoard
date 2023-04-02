@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -133,7 +134,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -355,7 +357,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -369,10 +371,10 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -381,18 +383,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "3.3",
-        "nets": [
-          "+3.3V"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -401,83 +400,277 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "current",
-        "nets": [
-          "/digitDriver_hun/A",
-          "/digitDriver_hun/B",
-          "/digitDriver_hun/C",
-          "/digitDriver_hun/D",
-          "/digitDriver_hun/E",
-          "/digitDriver_hun/F",
-          "/digitDriver_hun/G",
-          "/digitDriver_one/A",
-          "/digitDriver_one/B",
-          "/digitDriver_one/C",
-          "/digitDriver_one/D",
-          "/digitDriver_one/E",
-          "/digitDriver_one/F",
-          "/digitDriver_one/G",
-          "/digitDriver_ten/A",
-          "/digitDriver_ten/B",
-          "/digitDriver_ten/C",
-          "/digitDriver_ten/D",
-          "/digitDriver_ten/E",
-          "/digitDriver_ten/F",
-          "/digitDriver_ten/G",
-          "Net-(R202-Pad1)",
-          "Net-(R202-Pad2)",
-          "Net-(R205-Pad1)",
-          "Net-(R205-Pad2)",
-          "Net-(R208-Pad1)",
-          "Net-(R208-Pad2)",
-          "Net-(R211-Pad1)",
-          "Net-(R211-Pad2)",
-          "Net-(R214-Pad1)",
-          "Net-(R214-Pad2)",
-          "Net-(R217-Pad1)",
-          "Net-(R217-Pad2)",
-          "Net-(R220-Pad1)",
-          "Net-(R220-Pad2)",
-          "Net-(R302-Pad1)",
-          "Net-(R302-Pad2)",
-          "Net-(R305-Pad1)",
-          "Net-(R305-Pad2)",
-          "Net-(R308-Pad1)",
-          "Net-(R308-Pad2)",
-          "Net-(R311-Pad1)",
-          "Net-(R311-Pad2)",
-          "Net-(R314-Pad1)",
-          "Net-(R314-Pad2)",
-          "Net-(R317-Pad1)",
-          "Net-(R317-Pad2)",
-          "Net-(R320-Pad1)",
-          "Net-(R320-Pad2)",
-          "Net-(R402-Pad1)",
-          "Net-(R402-Pad2)",
-          "Net-(R405-Pad1)",
-          "Net-(R405-Pad2)",
-          "Net-(R408-Pad1)",
-          "Net-(R408-Pad2)",
-          "Net-(R411-Pad1)",
-          "Net-(R411-Pad2)",
-          "Net-(R414-Pad1)",
-          "Net-(R414-Pad2)",
-          "Net-(R417-Pad1)",
-          "Net-(R417-Pad2)",
-          "Net-(R420-Pad1)",
-          "Net-(R420-Pad2)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.75,
         "via_diameter": 1.5,
         "via_drill": 0.75,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "3.3",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_hun/A"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_hun/B"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_hun/C"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_hun/D"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_hun/E"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_hun/F"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_hun/G"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_one/A"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_one/B"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_one/C"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_one/D"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_one/E"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_one/F"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_one/G"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_ten/A"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_ten/B"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_ten/C"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_ten/D"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_ten/E"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_ten/F"
+      },
+      {
+        "netclass": "current",
+        "pattern": "/digitDriver_ten/G"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R202-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R202-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R205-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R205-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R208-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R208-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R211-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R211-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R214-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R214-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R217-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R217-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R220-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R220-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R302-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R302-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R305-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R305-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R308-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R308-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R311-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R311-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R314-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R314-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R317-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R317-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R320-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R320-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R402-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R402-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R405-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R405-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R408-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R408-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R411-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R411-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R414-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R414-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R417-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R417-Pad2)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R420-Pad1)"
+      },
+      {
+        "netclass": "current",
+        "pattern": "Net-(R420-Pad2)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
