@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 8843)
+    (start_pass_no 581)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -33,6 +33,7 @@
     (clear 50.0 (type smd_smd))
     (clear 400.2 (type smd_current))
     (clear 400.2 (type "kicad_default"_current))
+    (clear 400.2 (type 3.3_current))
     (clear 400.2 (type current_current))
   )
   (padstack "Via[0-1]_800:400_um"
@@ -66,6 +67,12 @@
     "Via[0-1]_1500:750_um-kicad_default" "Via[0-1]_1500:750_um" "kicad_default"
   )
   (via 
+    "Via[0-1]_800:400_um-3.3" "Via[0-1]_800:400_um" 3.3
+  )
+  (via 
+    "Via[0-1]_1500:750_um-3.3" "Via[0-1]_1500:750_um" 3.3
+  )
+  (via 
     "Via[0-1]_800:400_um-current" "Via[0-1]_800:400_um" current
   )
   (via 
@@ -78,20 +85,12 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (via_rule
+    3.3 "Via[0-1]_800:400_um-3.3"
+  )
+  (via_rule
     current "Via[0-1]_1500:750_um-current"
   )
   (class default
-    VDD GND +3.3V "Net-(D201-Pad2)" "Net-(D202-Pad2)" "Net-(D203-Pad2)" "Net-(D204-Pad2)" "Net-(D205-Pad2)"
-    "Net-(D206-Pad2)" "Net-(D207-Pad2)" "Net-(D301-Pad2)" "Net-(D302-Pad2)" "Net-(D303-Pad2)" "Net-(D304-Pad2)" "Net-(D305-Pad2)" "Net-(D306-Pad2)"
-    "Net-(D307-Pad2)" "Net-(D401-Pad2)" "Net-(D402-Pad2)" "Net-(D403-Pad2)" "Net-(D404-Pad2)" "Net-(D405-Pad2)" "Net-(D406-Pad2)" "Net-(D407-Pad2)"
-    "unconnected-(J101-Pad1)" /RESET /SCL /SDA "unconnected-(J101-Pad7)" "Net-(J102-Pad6)" "/add_01" "/add_02"
-    "Net-(C106-Pad1)" "unconnected-(J107-Pad3)" "/digitDriver_one/QA" "/digitDriver_one/QB" "/digitDriver_one/QC" "/digitDriver_one/QD" "/digitDriver_one/QE" "/digitDriver_one/QF"
-    "/digitDriver_one/QG" "/digitDriver_ten/QA" "/digitDriver_ten/QB" "/digitDriver_ten/QC" "/digitDriver_ten/QD" "/digitDriver_ten/QE" "/digitDriver_ten/QF" "/digitDriver_ten/QG"
-    "/digitDriver_hun/QA" "/digitDriver_hun/QB" "/digitDriver_hun/QC" "/digitDriver_hun/QD" "/digitDriver_hun/QE" "/digitDriver_hun/QF" "/digitDriver_hun/QG" /PlusOne
-    /MinusOne /PlusTen /MinusTen /PlusHun /MinusHun /SCK /PRG /SI
-    /RCK "unconnected-(U101-Pad6)" /TX /RX "/_G" "unconnected-(U101-Pad18)" "unconnected-(U101-Pad19)" "unconnected-(U101-Pad22)"
-    /ADC1 "unconnected-(U101-Pad24)" "unconnected-(U101-Pad25)" "unconnected-(U101-Pad29)" "/digitDriver_one/QH" "unconnected-(U208-Pad15)" "/digitDriver_hun/SI" "unconnected-(U308-Pad15)"
-    "/digitDriver_hun/QH" "unconnected-(U408-Pad15)" "unconnected-(J102-Pad7)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -102,6 +101,18 @@
     )
   )
   (class "kicad_default"
+    GND VDD "Net-(J102-Pin_1)" "Net-(D201-A)" "Net-(D202-A)" "Net-(D203-A)" "Net-(D204-A)" "Net-(D205-A)"
+    "Net-(D206-A)" "Net-(D207-A)" "Net-(D301-A)" "Net-(D302-A)" "Net-(D303-A)" "Net-(D304-A)" "Net-(D305-A)" "Net-(D306-A)"
+    "Net-(D307-A)" "Net-(D401-A)" "Net-(D402-A)" "Net-(D403-A)" "Net-(D404-A)" "Net-(D405-A)" "Net-(D406-A)" /RESET
+    /SCL /SDA "Net-(D407-A)" "unconnected-(J103-Pin_1-Pad1)" "/digitDriver_one/QA" "unconnected-(J103-Pin_7-Pad7)" "/digitDriver_one/QB" "Net-(J107-Pad3)"
+    "/digitDriver_one/QC" "/digitDriver_one/QD" /D+ "/digitDriver_one/QE" "/D-" "/digitDriver_one/QF" "/digitDriver_one/QG" "/digitDriver_ten/QA"
+    "/digitDriver_ten/QB" "/digitDriver_ten/QC" "Net-(U201-RS)" "/digitDriver_ten/QD" "Net-(U202-RS)" "/digitDriver_ten/QE" "Net-(U203-RS)" "/digitDriver_ten/QF"
+    "Net-(U204-RS)" "/digitDriver_ten/QG" "Net-(U205-RS)" "/digitDriver_hun/QA" "Net-(U206-RS)" "/digitDriver_hun/QB" "Net-(U207-RS)" "/digitDriver_hun/QC"
+    "Net-(U301-RS)" "/digitDriver_hun/QD" "Net-(U302-RS)" "/digitDriver_hun/QE" "Net-(U303-RS)" "/digitDriver_hun/QF" "Net-(U304-RS)" "/digitDriver_hun/QG"
+    "Net-(U305-RS)" /PlusOne /MinusOne /PlusTen /MinusTen /PlusHun /MinusHun /SCK
+    /SI /RCK "/_G" /ADC1 "/digitDriver_one/QH" "Net-(U306-RS)" "/digitDriver_hun/SI" "Net-(U307-RS)"
+    "/digitDriver_hun/QH" "Net-(U401-RS)" "Net-(U402-RS)" "Net-(U403-RS)" "Net-(U404-RS)" "Net-(U405-RS)" "Net-(U406-RS)" "Net-(U407-RS)"
+    "unconnected-(U208-QA-Pad15)" "unconnected-(U308-QA-Pad15)" "unconnected-(U408-QA-Pad15)" "unconnected-(J108-CC1-PadA5)" "unconnected-(J108-SBU1-PadA8)" "unconnected-(J108-CC2-PadB5)" "unconnected-(J108-SBU2-PadB8)" "unconnected-(J108-SHIELD-PadS1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -111,15 +122,24 @@
       (use_layer F.Cu B.Cu)
     )
   )
+  (class 3.3
+    +3.3V
+    (clearance_class 3.3)
+    (via_rule 3.3)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
   (class current
     "/digitDriver_one/A" "/digitDriver_one/B" "/digitDriver_one/C" "/digitDriver_one/D" "/digitDriver_one/E" "/digitDriver_one/F" "/digitDriver_one/G" "/digitDriver_ten/A"
     "/digitDriver_ten/B" "/digitDriver_ten/C" "/digitDriver_ten/D" "/digitDriver_ten/E" "/digitDriver_ten/F" "/digitDriver_ten/G" "/digitDriver_hun/A" "/digitDriver_hun/B"
-    "/digitDriver_hun/C" "/digitDriver_hun/D" "/digitDriver_hun/E" "/digitDriver_hun/F" "/digitDriver_hun/G" "Net-(R202-Pad1)" "Net-(R202-Pad2)" "Net-(R205-Pad1)"
-    "Net-(R205-Pad2)" "Net-(R208-Pad1)" "Net-(R208-Pad2)" "Net-(R211-Pad1)" "Net-(R211-Pad2)" "Net-(R214-Pad1)" "Net-(R214-Pad2)" "Net-(R217-Pad1)"
-    "Net-(R217-Pad2)" "Net-(R220-Pad1)" "Net-(R220-Pad2)" "Net-(R302-Pad1)" "Net-(R302-Pad2)" "Net-(R305-Pad1)" "Net-(R305-Pad2)" "Net-(R308-Pad1)"
-    "Net-(R308-Pad2)" "Net-(R311-Pad1)" "Net-(R311-Pad2)" "Net-(R314-Pad1)" "Net-(R314-Pad2)" "Net-(R317-Pad1)" "Net-(R317-Pad2)" "Net-(R320-Pad1)"
-    "Net-(R320-Pad2)" "Net-(R402-Pad1)" "Net-(R402-Pad2)" "Net-(R405-Pad1)" "Net-(R405-Pad2)" "Net-(R408-Pad1)" "Net-(R408-Pad2)" "Net-(R411-Pad1)"
-    "Net-(R411-Pad2)" "Net-(R414-Pad1)" "Net-(R414-Pad2)" "Net-(R417-Pad1)" "Net-(R417-Pad2)" "Net-(R420-Pad1)" "Net-(R420-Pad2)"
+    "/digitDriver_hun/C" "/digitDriver_hun/D" "/digitDriver_hun/E" "/digitDriver_hun/F" "/digitDriver_hun/G" "Net-(R202-Pad2)" "Net-(R205-Pad2)" "Net-(R208-Pad2)"
+    "Net-(R211-Pad2)" "Net-(R214-Pad2)" "Net-(R217-Pad2)" "Net-(R220-Pad2)" "Net-(R302-Pad2)" "Net-(R305-Pad2)" "Net-(R308-Pad2)" "Net-(R311-Pad2)"
+    "Net-(R314-Pad2)" "Net-(R317-Pad2)" "Net-(R320-Pad2)" "Net-(R402-Pad2)" "Net-(R405-Pad2)" "Net-(R408-Pad2)" "Net-(R411-Pad2)" "Net-(R414-Pad2)"
+    "Net-(R417-Pad2)" "Net-(R420-Pad2)"
     (clearance_class current)
     (via_rule current)
     (rule

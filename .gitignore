@@ -1,3 +1,5 @@
 PCB/LedDriver/LedDriver-backups/
 PCB/LedDriver/LedDriver.kicad_prl
 PCB/LedDriver/fp-info-cache
+
+defines.h

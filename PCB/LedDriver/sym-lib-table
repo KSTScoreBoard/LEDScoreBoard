@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "NJW4617DL3-TE1")(type "KiCad")(uri "${KIPRJMOD}/NJW4617DL3-TE1/NJW4617DL3-TE1.kicad_sym")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries-main/libraries/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "5077CR-16SMC2-BK-TR")(type "KiCad")(uri "${KIPRJMOD}/5077CR-16SMC2-BK-TR/5077CR-16SMC2-BK-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "2023-04-03_09-30-50")(type "Legacy")(uri "${KIPRJMOD}/ul_ZX62R-B-5P-30-/KiCAD/2023-04-03_09-30-50/2023-04-03_09-30-50.lib")(options "")(descr ""))
 )
