@@ -1,6 +1,3 @@
-const char* id = "B1";
-
-
 #include <ST7032_asukiaaa.h>
 #include <ArduinoJson.h>
 #include <ArduinoJson.hpp>
@@ -44,8 +41,10 @@ void onMessageCallback(WebsocketsMessage message)
     lcd.setCursor(0, 1);
     lcd.print("auth OK");
   }else{
+    lcd.setCursor(0, 1);
+    lcd.print("auth NG");
   }
-  if(doc["to"] == id){
+  if(doc["to"] == identification){
     int score = doc["score"];
     int level = doc["level"];
 
@@ -108,7 +107,7 @@ void setup() {
   lcd.setWire(&Wire);
   lcd.begin(8,2);
   lcd.setContrast(30);
-  lcd.print(id);
+  lcd.print(identification);
   delay(500);
 
 
@@ -155,10 +154,7 @@ void setup() {
   {
     Serial.println("Connected!");
     lcd.print("conn OK");
-    String login = "";
-    String user = id;		
-    String passwd = "1234";
-    login = "{\"auth\":\"" + user + "\"}";	//create json text
+    String login = "{\"auth\":\"" + identification + "\"}";	//create json text
     client.send(login);
   }
   else
