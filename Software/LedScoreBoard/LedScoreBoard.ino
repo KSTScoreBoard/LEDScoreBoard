@@ -37,14 +37,17 @@ WebsocketsClient client;
 
 int score = 0;
 int level = 4;
+float tmp = 0;
 bool hidden[3] = {false,false,false};
 bool refresh = false;
-
+bool reConnect = false;
+bool doTemp = false;
 
 void onMessageCallback(WebsocketsMessage message)
 {
   Serial.print("Got Message: ");
   Serial.println(message.data());
+
 
   StaticJsonDocument<256> doc;
   deserializeJson(doc, message.data());
@@ -54,6 +57,7 @@ void onMessageCallback(WebsocketsMessage message)
     delay(1000);
     lcd.clear();
     refresh = true;
+    doTemp = true;
   }
   if(doc["to"] == identification){
     score = doc["score"];
@@ -78,6 +82,8 @@ void onEventsCallback(WebsocketsEvent event, String data)
     Serial.println("Connnection Closed");
     lcd.clear();
     lcd.print("ConnLost");
+    reConnect = true;
+    doTemp = false;
   }
   else if (event == WebsocketsEvent::GotPing)
   {
@@ -88,6 +94,7 @@ void onEventsCallback(WebsocketsEvent event, String data)
     Serial.println("Got a Pong!");
   }
 }
+
 
 void IRAM_ATTR btnPushed() {
   static int old_time;
@@ -111,7 +118,7 @@ void IRAM_ATTR btnPushed() {
   refresh = true;
 }
 
-void onlineSetuo(){
+bool onlineSetup(){
   while (!Serial && millis() < 5000);
 
   Serial.print("\nStart Secured-ESP32-Client on ");
@@ -127,7 +134,8 @@ void onlineSetuo(){
   for (int i = 0; i < 10 && WiFi.status() != WL_CONNECTED; i++)
   {
     Serial.print(".");
-    lcd.print(".");
+    lcd.setCursor(5,0);
+    lcd.print(i);
     delay(1000);
   }
 
@@ -137,7 +145,7 @@ void onlineSetuo(){
     Serial.println("No Wifi!");
     lcd.setCursor(0, 1);
     lcd.print("No WiFi");
-    return;
+    return false;
   }
 
   Serial.print("\nConnected to Wifi");
@@ -154,15 +162,18 @@ void onlineSetuo(){
   if (connected)
   {
     Serial.println("Connected!");
+    Serial.println(client.available());
     lcd.print("conn OK");
     String login = "{\"auth\":\"" + identification + "\"}";	//create json text
     client.send(login);
+    return true;
   }
   else
   {
     Serial.println("Not Connected!");
     lcd.print("conn NG");
   }
+  return false;
 }
 
 void offlineSetup(){
@@ -204,8 +215,18 @@ void setup() {
   lcd.print(identification);
   delay(500);
 
-  onlineSetuo();
+  onlineSetup();
   offlineSetup();
+}
+
+void display(){
+  lcd.clear();
+  char str[50];
+  sprintf(str,"%03d  %d%d%d",score,hidden[0],hidden[1],hidden[2]);
+  lcd.print(str);
+  lcd.setCursor(0, 1);
+  sprintf(str,"%d  %f",level,tmp);
+  lcd.print(str);
 }
 
 void loop() {
@@ -217,29 +238,38 @@ void loop() {
       shiftOut( PIN_SI, PIN_CLK, LSBFIRST, segment[score%10]);
       digitalWrite( PIN_LATCH, HIGH );
       ledcWrite(0,7-level);
-    }
-    
-    lcd.clear();
-    char str[50];
-    sprintf(str,"%03d  %d%d%d",score,hidden[0],hidden[1],hidden[2]);
-    lcd.print(str);
-    lcd.setCursor(0, 1);
-    lcd.print(level);
+    }else{
+      static int old_time;
+      static int index = 0;
+      if(millis() - old_time < 100) return;
 
+      index = (++index % 7);
+      digitalWrite( PIN_LATCH, LOW );
+      shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[0] ? 0x80 >> index : segment[score/100]);
+      shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[1] ? 0x80 >> index : segment[score%100/10]);
+      shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[2] ? 0x80 >> index : segment[score%10]);
+      digitalWrite( PIN_LATCH, HIGH );
+      old_time = millis();
+    }
+    display();
+    doTemp = true;
     refresh = false;
   }
-  if(hidden[0] || hidden[1] || hidden[2]){
-    static int old_time;
-    static int index = 0;
-    if(millis() - old_time < 100) return;
 
-    index = (++index % 7);
-    digitalWrite( PIN_LATCH, LOW );
-    shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[0] ? 0x80 >> index : segment[score/100]);
-    shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[1] ? 0x80 >> index : segment[score%100/10]);
-    shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[2] ? 0x80 >> index : segment[score%10]);
-    digitalWrite( PIN_LATCH, HIGH );
+  if(doTemp){
+    static int old_time = millis();
+    if(millis() - old_time < 1000) return;
+    tmp = (analogReadMilliVolts(0)-600)/10.0;
+    display();
     old_time = millis();
+  }
+
+  if(reConnect){
+    reConnect = false;
+    for(int i=0;i<3;i++){
+      bool connected = onlineSetup();
+      if(connected) break;
+    } 
   }
 
   client.poll();
