@@ -238,22 +238,24 @@ void loop() {
       shiftOut( PIN_SI, PIN_CLK, LSBFIRST, segment[score%10]);
       digitalWrite( PIN_LATCH, HIGH );
       ledcWrite(0,7-level);
-    }else{
-      static int old_time;
-      static int index = 0;
-      if(millis() - old_time < 100) return;
-
-      index = (++index % 7);
-      digitalWrite( PIN_LATCH, LOW );
-      shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[0] ? 0x80 >> index : segment[score/100]);
-      shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[1] ? 0x80 >> index : segment[score%100/10]);
-      shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[2] ? 0x80 >> index : segment[score%10]);
-      digitalWrite( PIN_LATCH, HIGH );
-      old_time = millis();
     }
     display();
     doTemp = true;
     refresh = false;
+  }
+
+  if(hidden[0] || hidden[1] || hidden[2]){
+    static int old_time;
+    static int index = 0;
+    if(millis() - old_time < 100) return;
+
+    index = (++index % 7);
+    digitalWrite( PIN_LATCH, LOW );
+    shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[0] ? 0x80 >> index : segment[score/100]);
+    shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[1] ? 0x80 >> index : segment[score%100/10]);
+    shiftOut( PIN_SI, PIN_CLK, LSBFIRST,hidden[2] ? 0x80 >> index : segment[score%10]);
+    digitalWrite( PIN_LATCH, HIGH );
+    old_time = millis();
   }
 
   if(doTemp){
