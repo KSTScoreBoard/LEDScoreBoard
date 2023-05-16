@@ -56,8 +56,7 @@ void onMessageCallback(WebsocketsMessage message)
     lcd.print("auth OK");
     delay(1000);
     lcd.clear();
-    refresh = true;
-    doTemp = true;
+    lcd.print("ready");
   }
   if(doc["to"] == identification){
     score = doc["score"];
@@ -131,7 +130,7 @@ bool onlineSetup(){
   lcd.print("WiFi");
 
   // Wait some time to connect to wifi
-  for (int i = 0; i < 10 && WiFi.status() != WL_CONNECTED; i++)
+  for (int i = 9; i >= 0 && WiFi.status() != WL_CONNECTED; i--)
   {
     Serial.print(".");
     lcd.setCursor(5,0);
@@ -145,6 +144,9 @@ bool onlineSetup(){
     Serial.println("No Wifi!");
     lcd.setCursor(0, 1);
     lcd.print("No WiFi");
+    delay(1000);
+    lcd.clear();
+    lcd.print("ready");
     return false;
   }
 
@@ -172,6 +174,9 @@ bool onlineSetup(){
   {
     Serial.println("Not Connected!");
     lcd.print("conn NG");
+    delay(1000);
+    lcd.clear();
+    lcd.print("ready");
   }
   return false;
 }
@@ -195,9 +200,9 @@ void offlineSetup(){
   attachInterrupt(PIN_MH,btnPushed,FALLING);
 
   digitalWrite( PIN_LATCH, LOW );
-  shiftOut( PIN_SI, PIN_CLK, LSBFIRST, 0xFF);
-  shiftOut( PIN_SI, PIN_CLK, LSBFIRST, 0xFF);
-  shiftOut( PIN_SI, PIN_CLK, LSBFIRST, 0xFF);
+  shiftOut( PIN_SI, PIN_CLK, LSBFIRST, 0x00);
+  shiftOut( PIN_SI, PIN_CLK, LSBFIRST, 0x00);
+  shiftOut( PIN_SI, PIN_CLK, LSBFIRST, 0x00);
   digitalWrite( PIN_LATCH, HIGH );
 
   ledcSetup(0,10000,3);
